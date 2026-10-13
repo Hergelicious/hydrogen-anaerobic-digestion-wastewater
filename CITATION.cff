@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "W-HyDT: screening hydrogen recovery from municipal wastewater against anaerobic digestion"
+version: 1.6.0
+date-released: 2026-10-13
+license: MIT
+repository-code: "https://github.com/Hergelicious/gabal-el-asfar-dfpf-digital-twin"
+authors:
+  - family-names: Hassan
+    given-names: Hagar H.
+    affiliation: "Department of Civil Engineering, Faculty of Engineering, Alexandria University, Alexandria, Egypt"
+    orcid: "https://orcid.org/0000-0001-6870-2787"
+  - family-names: Hassan
+    given-names: Ahmed Hassona
+    affiliation: "Central European Institute of Technology, Masaryk University, Brno, Czech Republic"
+    orcid: "https://orcid.org/0000-0001-8463-8877"
+preferred-citation:
+  type: article
+  title: "Hydrogen from municipal wastewater should complement anaerobic digestion, not compete with it"
+  year: 2026
+  authors:
+    - family-names: Hassan
+      given-names: Hagar H.
+    - family-names: Hassan
+      given-names: Ahmed Hassona
