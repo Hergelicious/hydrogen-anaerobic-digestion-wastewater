@@ -1,0 +1,42 @@
+{
+  "envelope": "medium",
+  "features": [
+    "DF_OLR_kgCOD_m3_day",
+    "NH4_mg_L",
+    "Alkalinity_mgCaCO3_L"
+  ],
+  "alpha": 10.0,
+  "intercept": -1.2222905655292422,
+  "coef": {
+    "DF_OLR_kgCOD_m3_day": 0.554830988297036,
+    "NH4_mg_L": 0.004929669045166503,
+    "Alkalinity_mgCaCO3_L": 0.0025633417454614792
+  },
+  "scaler_mean": {
+    "DF_OLR_kgCOD_m3_day": 2.9304122499999994,
+    "NH4_mg_L": 51.425714249999956,
+    "Alkalinity_mgCaCO3_L": 1829.898708500001
+  },
+  "scaler_sd": {
+    "DF_OLR_kgCOD_m3_day": 1.1670749179572564,
+    "NH4_mg_L": 15.95412148656177,
+    "Alkalinity_mgCaCO3_L": 358.740563646609
+  },
+  "input_range": {
+    "DF_OLR_kgCOD_m3_day": [
+      1.0057,
+      4.9968
+    ],
+    "NH4_mg_L": [
+      25.0394,
+      79.8583
+    ],
+    "Alkalinity_mgCaCO3_L": [
+      1200.5334,
+      2494.8166
+    ]
+  },
+  "eta_cap": 0.55,
+  "inverse_transform": "eta = min(eta_cap, 1 / (1 + exp(-(intercept + sum(coef * z)))))",
+  "z": "(x - scaler_mean) / scaler_sd"
+}

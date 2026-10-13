@@ -1,0 +1,287 @@
+{
+  "low": {
+    "n_rows": 500,
+    "n_train": 400,
+    "n_test": 100,
+    "eta_raw_max": 0.824817243,
+    "eta_mean": 0.320875346776304,
+    "alpha": 10.0,
+    "k8": {
+      "features": [
+        "DF_feed_T_degC",
+        "DF_feed_pH",
+        "DF_HRT_days",
+        "DF_OLR_kgCOD_m3_day",
+        "Pretreatment_severity_pct",
+        "NH4_mg_L",
+        "SO4_mg_L",
+        "Alkalinity_mgCaCO3_L"
+      ],
+      "test_r2": 0.5169280233933153,
+      "test_rmse": 0.06565623764053896,
+      "test_mae": 0.05552089584246746,
+      "test_rmse_logit": 0.3082001860922308,
+      "train_r2": 0.46006253444176404,
+      "cv_r2_mean": 0.41741314805650787,
+      "cv_r2_sd": 0.08404348713653731,
+      "coef": {
+        "DF_feed_T_degC": -0.01796035984643414,
+        "DF_feed_pH": -0.0070970709070842216,
+        "DF_HRT_days": 0.006399268504597292,
+        "DF_OLR_kgCOD_m3_day": 0.2633120811877984,
+        "Pretreatment_severity_pct": 0.03265818713687758,
+        "NH4_mg_L": -0.01850447525874427,
+        "SO4_mg_L": 0.0076400149527116705,
+        "Alkalinity_mgCaCO3_L": -0.024075080830681817
+      },
+      "intercept": -0.7630626904288441,
+      "scaler_mean": {
+        "DF_feed_T_degC": 34.030512249999994,
+        "DF_feed_pH": 5.39113175,
+        "DF_HRT_days": 1.0091964999999998,
+        "DF_OLR_kgCOD_m3_day": 0.7528582499999996,
+        "Pretreatment_severity_pct": 32.38146124999997,
+        "NH4_mg_L": 40.16664024999999,
+        "SO4_mg_L": 29.921113499999976,
+        "Alkalinity_mgCaCO3_L": 1581.6565770000013
+      },
+      "scaler_sd": {
+        "DF_feed_T_degC": 2.397115898214964,
+        "DF_feed_pH": 0.22944180376936005,
+        "DF_HRT_days": 0.29657141001409754,
+        "DF_OLR_kgCOD_m3_day": 0.1441682700247788,
+        "Pretreatment_severity_pct": 4.220736129654806,
+        "NH4_mg_L": 11.726522211544857,
+        "SO4_mg_L": 11.318669959996079,
+        "Alkalinity_mgCaCO3_L": 349.79648629675717
+      },
+      "input_range": {
+        "DF_feed_T_degC": [
+          30.0405,
+          37.9437
+        ],
+        "DF_feed_pH": [
+          5.0037,
+          5.7998
+        ],
+        "DF_HRT_days": [
+          0.5049,
+          1.4994
+        ],
+        "DF_OLR_kgCOD_m3_day": [
+          0.5016,
+          0.9992
+        ],
+        "Pretreatment_severity_pct": [
+          25.0235,
+          39.9316
+        ],
+        "NH4_mg_L": [
+          20.0005,
+          59.9128
+        ],
+        "SO4_mg_L": [
+          10.0797,
+          49.9557
+        ],
+        "Alkalinity_mgCaCO3_L": [
+          1000.7841,
+          2199.4692
+        ]
+      }
+    },
+    "k3": {
+      "features": [
+        "DF_OLR_kgCOD_m3_day",
+        "NH4_mg_L",
+        "Alkalinity_mgCaCO3_L"
+      ],
+      "test_r2": 0.5293304613965752,
+      "test_rmse": 0.06480792493032511,
+      "test_mae": 0.05546806290527039,
+      "test_rmse_logit": 0.30450222810277006,
+      "train_r2": 0.45069030524505627,
+      "cv_r2_mean": 0.42289569356071954,
+      "cv_r2_sd": 0.07912240462674684,
+      "coef": {
+        "DF_OLR_kgCOD_m3_day": 0.2638315063404564,
+        "NH4_mg_L": -0.018852853423606306,
+        "Alkalinity_mgCaCO3_L": -0.02420887279187323
+      },
+      "intercept": -0.7630626904288439,
+      "scaler_mean": {
+        "DF_OLR_kgCOD_m3_day": 0.7528582499999996,
+        "NH4_mg_L": 40.16664024999999,
+        "Alkalinity_mgCaCO3_L": 1581.6565770000013
+      },
+      "scaler_sd": {
+        "DF_OLR_kgCOD_m3_day": 0.1441682700247788,
+        "NH4_mg_L": 11.726522211544857,
+        "Alkalinity_mgCaCO3_L": 349.79648629675717
+      },
+      "input_range": {
+        "DF_OLR_kgCOD_m3_day": [
+          0.5016,
+          0.9992
+        ],
+        "NH4_mg_L": [
+          20.0005,
+          59.9128
+        ],
+        "Alkalinity_mgCaCO3_L": [
+          1000.7841,
+          2199.4692
+        ]
+      }
+    },
+    "k3_retention_cv": 1.0131345778870136,
+    "k3_retention_test": 1.0239925820268856
+  },
+  "medium": {
+    "n_rows": 500,
+    "n_train": 400,
+    "n_test": 100,
+    "eta_raw_max": 2.098046762,
+    "eta_mean": 0.2503052425655134,
+    "alpha": 10.0,
+    "k8": {
+      "features": [
+        "DF_feed_T_degC",
+        "DF_feed_pH",
+        "DF_HRT_days",
+        "DF_OLR_kgCOD_m3_day",
+        "Pretreatment_severity_pct",
+        "NH4_mg_L",
+        "SO4_mg_L",
+        "Alkalinity_mgCaCO3_L"
+      ],
+      "test_r2": 0.6760254705002748,
+      "test_rmse": 0.0662850630234429,
+      "test_mae": 0.0519779727300941,
+      "test_rmse_logit": 0.32802090751883906,
+      "train_r2": 0.7275832697295562,
+      "cv_r2_mean": 0.7133606532225119,
+      "cv_r2_sd": 0.031780218639181616,
+      "coef": {
+        "DF_feed_T_degC": -0.0025753567835896107,
+        "DF_feed_pH": -0.011037266267338012,
+        "DF_HRT_days": -0.006037806730015556,
+        "DF_OLR_kgCOD_m3_day": 0.5558613130588234,
+        "Pretreatment_severity_pct": -0.0012392741799049183,
+        "NH4_mg_L": 0.0037253136238279442,
+        "SO4_mg_L": 0.030945221200734854,
+        "Alkalinity_mgCaCO3_L": 0.0020736052993969387
+      },
+      "intercept": -1.2222905655292422,
+      "scaler_mean": {
+        "DF_feed_T_degC": 34.49917175,
+        "DF_feed_pH": 5.599385999999998,
+        "DF_HRT_days": 2.0024140000000004,
+        "DF_OLR_kgCOD_m3_day": 2.9304122499999994,
+        "Pretreatment_severity_pct": 37.30554675000002,
+        "NH4_mg_L": 51.425714249999956,
+        "SO4_mg_L": 36.98538400000002,
+        "Alkalinity_mgCaCO3_L": 1829.898708500001
+      },
+      "scaler_sd": {
+        "DF_feed_T_degC": 1.4095107393797814,
+        "DF_feed_pH": 0.17533211900276574,
+        "DF_HRT_days": 0.569066213418087,
+        "DF_OLR_kgCOD_m3_day": 1.1670749179572564,
+        "Pretreatment_severity_pct": 4.2625499476122775,
+        "NH4_mg_L": 15.95412148656177,
+        "SO4_mg_L": 12.922394856507593,
+        "Alkalinity_mgCaCO3_L": 358.740563646609
+      },
+      "input_range": {
+        "DF_feed_T_degC": [
+          32.0309,
+          36.994
+        ],
+        "DF_feed_pH": [
+          5.3043,
+          5.8996
+        ],
+        "DF_HRT_days": [
+          1.0078,
+          2.9989
+        ],
+        "DF_OLR_kgCOD_m3_day": [
+          1.0057,
+          4.9968
+        ],
+        "Pretreatment_severity_pct": [
+          30.0036,
+          44.9836
+        ],
+        "NH4_mg_L": [
+          25.0394,
+          79.8583
+        ],
+        "SO4_mg_L": [
+          15.0109,
+          59.8111
+        ],
+        "Alkalinity_mgCaCO3_L": [
+          1200.5334,
+          2494.8166
+        ]
+      }
+    },
+    "k3": {
+      "features": [
+        "DF_OLR_kgCOD_m3_day",
+        "NH4_mg_L",
+        "Alkalinity_mgCaCO3_L"
+      ],
+      "test_r2": 0.6664037077289745,
+      "test_rmse": 0.06726216579162371,
+      "test_mae": 0.05237727026199026,
+      "test_rmse_logit": 0.33306378549923776,
+      "train_r2": 0.7238010242362429,
+      "cv_r2_mean": 0.7132123407840087,
+      "cv_r2_sd": 0.030728040425269144,
+      "coef": {
+        "DF_OLR_kgCOD_m3_day": 0.554830988297036,
+        "NH4_mg_L": 0.004929669045166503,
+        "Alkalinity_mgCaCO3_L": 0.0025633417454614792
+      },
+      "intercept": -1.2222905655292422,
+      "scaler_mean": {
+        "DF_OLR_kgCOD_m3_day": 2.9304122499999994,
+        "NH4_mg_L": 51.425714249999956,
+        "Alkalinity_mgCaCO3_L": 1829.898708500001
+      },
+      "scaler_sd": {
+        "DF_OLR_kgCOD_m3_day": 1.1670749179572564,
+        "NH4_mg_L": 15.95412148656177,
+        "Alkalinity_mgCaCO3_L": 358.740563646609
+      },
+      "input_range": {
+        "DF_OLR_kgCOD_m3_day": [
+          1.0057,
+          4.9968
+        ],
+        "NH4_mg_L": [
+          25.0394,
+          79.8583
+        ],
+        "Alkalinity_mgCaCO3_L": [
+          1200.5334,
+          2494.8166
+        ]
+      }
+    },
+    "k3_retention_cv": 0.9997920933291833,
+    "k3_retention_test": 0.985767159387974
+  },
+  "noise_test_deployed": {
+    "perturbation": 0.3,
+    "n": 500,
+    "mean_bias": 0.010455518341618397,
+    "cv": 0.18010394370011537,
+    "ratio_p5": 0.7276485276852959,
+    "ratio_p95": 1.3159213325336678,
+    "input_cv": 0.17320508075688773
+  }
+}
