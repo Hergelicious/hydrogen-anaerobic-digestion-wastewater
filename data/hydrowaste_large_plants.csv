@@ -1,0 +1,855 @@
+waste_id,country,iso,lat,lon,flow_m3d,flow_basis,treatment_level,status,population_served,high_income,within_35deg
+53306,Argentina,ARG,-34.688,-58.439,111553.0,estimated,Secondary,Not Reported,2861924,False,True
+57372,Belarus,BLR,53.842,27.678,118491.0,estimated,Secondary,Not Reported,479408,False,False
+42517,Brazil,BRA,-23.51,-46.849,782665.0,reported as treated,Secondary,Not Reported,5128492,False,True
+41898,Brazil,BRA,-22.989,-43.227,330289.0,reported as treated,Primary,Not Reported,1720255,False,True
+42515,Brazil,BRA,-23.515,-46.559,225763.0,reported as treated,Secondary,Not Reported,1479337,False,True
+40744,Brazil,BRA,-13.006,-38.488,220392.0,reported as treated,Primary,Not Reported,2039154,False,True
+40986,Brazil,BRA,-3.717,-38.538,190080.0,reported as treated,Secondary,Not Reported,1321705,False,True
+41735,Brazil,BRA,-18.883,-48.331,190080.0,reported as treated,Secondary,Not Reported,604895,False,True
+41537,Brazil,BRA,-19.896,-43.878,166926.0,reported as treated,Secondary,Not Reported,1148032,False,True
+41897,Brazil,BRA,-22.995,-43.367,154135.0,reported as treated,Primary,Not Reported,802785,False,True
+41899,Brazil,BRA,-22.87,-43.23,132116.0,reported as treated,Secondary,Not Reported,688102,False,True
+41481,Brazil,BRA,-16.637,-49.265,122256.0,reported as treated,Primary,Not Reported,1077134,False,True
+42453,Brazil,BRA,-21.105,-47.813,109901.0,reported as treated,Secondary,Not Reported,511663,False,True
+41538,Brazil,BRA,-19.823,-43.892,109767.0,reported as treated,Secondary,Not Reported,754920,False,True
+42495,Brazil,BRA,-23.972,-46.35,108782.0,reported as treated,Primary,Not Reported,421880,False,True
+40359,Brazil,BRA,-30.162,-51.22,103680.0,reported as treated,Secondary,Not Reported,388401,False,True
+41770,Brazil,BRA,-25.518,-49.213,103270.0,reported as treated,Secondary,Not Reported,598148,False,True
+45742,China,CHN,31.253,121.742,2057600.0,reported as treated,Secondary,Not Reported,3560000,False,True
+45741,China,CHN,31.355,121.599,1300000.0,reported as treated,Secondary,Not Reported,2650000,False,True
+45153,China,CHN,39.907,116.532,828000.0,reported as treated,Secondary,Not Reported,2400000,False,False
+46946,China,CHN,23.116,113.344,807100.0,reported as treated,Secondary,Not Reported,2260000,False,True
+46137,China,CHN,30.141,120.658,688800.0,reported as treated,Secondary,Not Reported,1000000,False,True
+45772,China,CHN,32.029,118.667,687000.0,reported as treated,Secondary,Not Reported,600000,False,True
+46039,China,CHN,30.281,120.309,618300.0,reported as treated,Secondary,Not Reported,250000,False,True
+45154,China,CHN,39.82,116.436,616000.0,reported as treated,Secondary,Not Reported,1925000,False,False
+47260,China,CHN,29.602,106.623,615300.0,reported as treated,Secondary,Not Reported,820000,False,True
+46954,China,CHN,23.121,113.223,546000.0,reported as treated,Secondary,Not Reported,1500000,False,True
+45724,China,CHN,31.348,121.616,474000.0,reported as treated,Secondary,Not Reported,710000,False,True
+45174,China,CHN,40.033,116.366,450000.0,reported as treated,Secondary,Not Reported,814000,False,False
+46026,China,CHN,30.261,120.24,448200.0,reported as treated,Secondary,Not Reported,1000000,False,True
+45234,China,CHN,37.964,114.527,425000.0,reported as treated,Secondary,Not Reported,650000,False,False
+46723,China,CHN,30.679,114.234,396000.0,reported as treated,Secondary,Not Reported,890000,False,True
+45720,China,CHN,31.471,121.391,386000.0,reported as treated,Secondary,Not Reported,935000,False,True
+45652,China,CHN,43.95,125.356,374200.0,reported as treated,Secondary,Not Reported,1480000,False,False
+46084,China,CHN,30.749,120.68,360400.0,reported as treated,Secondary,Not Reported,1200000,False,True
+45214,China,CHN,39.166,117.274,352700.0,reported as treated,Secondary,Not Reported,1110000,False,False
+47105,China,CHN,22.542,114.146,348000.0,reported as treated,Secondary,Not Reported,650000,False,True
+45771,China,CHN,32.107,118.736,331000.0,reported as treated,Secondary,Not Reported,760000,False,True
+45568,China,CHN,41.841,123.334,320000.0,reported as treated,Secondary,Not Reported,1700000,False,False
+45570,China,CHN,41.762,123.352,314000.0,reported as treated,Secondary,Not Reported,1700000,False,False
+47086,China,CHN,22.515,113.89,309000.0,reported as treated,Secondary,Not Reported,1216800,False,True
+46591,China,CHN,34.862,113.7,304700.0,reported as treated,Secondary,Not Reported,2100000,False,True
+45222,China,CHN,39.102,117.079,303400.0,reported as treated,Secondary,Not Reported,860000,False,False
+46171,China,CHN,31.846,117.308,300000.0,reported as treated,Secondary,Not Reported,759000,False,True
+47104,China,CHN,22.535,114.099,299000.0,reported as treated,Secondary,Not Reported,540000,False,True
+45663,China,CHN,43.921,126.525,289500.0,reported as treated,Secondary,Not Reported,1680000,False,False
+45685,China,CHN,45.82,126.718,287000.0,reported as treated,Secondary,Not Reported,2520000,False,False
+47241,China,CHN,20.076,110.326,283000.0,reported as treated,Primary,Not Reported,700000,False,True
+46734,China,CHN,30.671,114.294,280000.0,reported as treated,Secondary,Not Reported,840000,False,True
+46375,China,CHN,36.682,116.995,275300.0,reported as treated,Secondary,Not Reported,2000000,False,False
+46957,China,CHN,23.052,113.345,261100.0,reported as treated,Secondary,Not Reported,1350000,False,True
+47261,China,CHN,29.6,106.629,259700.0,reported as treated,Secondary,Not Reported,800000,False,True
+47071,China,CHN,23.347,116.761,259500.0,reported as treated,Secondary,Not Reported,1000000,False,True
+46655,China,CHN,33.727,113.44,252000.0,reported as treated,Secondary,Not Reported,646000,False,True
+47404,China,CHN,26.634,106.792,250000.0,reported as treated,Secondary,Not Reported,1445000,False,True
+47441,China,CHN,24.952,102.681,246000.0,reported as treated,Secondary,Not Reported,1176000,False,True
+46291,China,CHN,24.477,118.071,245000.0,reported as treated,Secondary,Not Reported,520000,False,True
+46034,China,CHN,30.19,120.445,242600.0,reported as treated,Secondary,Not Reported,100000,False,True
+46033,China,CHN,30.208,120.455,241000.0,reported as treated,Secondary,Not Reported,89000,False,True
+47155,China,CHN,22.781,108.319,240600.0,reported as treated,Secondary,Not Reported,343000,False,True
+46985,China,CHN,23.045,113.088,239600.0,reported as treated,Secondary,Not Reported,250000,False,True
+45215,China,CHN,39.086,117.183,237000.0,reported as treated,Secondary,Not Reported,1080000,False,False
+45887,China,CHN,31.29,120.662,228400.0,reported as treated,Secondary,Not Reported,800000,False,True
+45605,China,CHN,41.813,123.545,226000.0,reported as treated,Secondary,Not Reported,1410000,False,False
+46722,China,CHN,30.587,114.362,220000.0,reported as treated,Secondary,Not Reported,480000,False,True
+45578,China,CHN,41.315,123.762,219700.0,reported as treated,Secondary,Not Reported,766500,False,False
+45774,China,CHN,32.002,118.853,218500.0,reported as treated,Secondary,Not Reported,600000,False,True
+46442,China,CHN,35.42,116.667,217000.0,reported as treated,Secondary,Not Reported,1060000,False,False
+47501,China,CHN,34.368,108.908,214100.0,reported as treated,Secondary,Not Reported,1600000,False,True
+47219,China,CHN,24.323,109.447,210000.0,reported as treated,Secondary,Not Reported,1260000,False,True
+46157,China,CHN,28.004,120.729,207300.0,reported as treated,Secondary,Not Reported,700000,False,True
+47444,China,CHN,25.029,102.656,206700.0,reported as treated,Secondary,Not Reported,1000000,False,True
+45939,China,CHN,31.531,120.329,204800.0,reported as treated,Secondary,Not Reported,700000,False,True
+47089,China,CHN,22.574,113.845,203700.0,reported as treated,Secondary,Not Reported,800000,False,True
+45152,China,CHN,39.961,116.506,203000.0,reported as treated,Secondary,Not Reported,100000,False,False
+46570,China,CHN,36.851,118.044,200800.0,reported as treated,Secondary,Not Reported,149000,False,False
+46040,China,CHN,30.249,120.324,200000.0,reported as treated,Secondary,Not Reported,780000,False,True
+46963,China,CHN,22.993,113.691,199700.0,reported as treated,Secondary,Not Reported,499600,False,True
+46987,China,CHN,23.023,113.141,199000.0,reported as treated,Secondary,Not Reported,390000,False,True
+45569,China,CHN,41.736,123.419,198000.0,reported as treated,Secondary,Not Reported,1000000,False,False
+46795,China,CHN,32.062,112.215,198000.0,reported as treated,Secondary,Not Reported,848000,False,True
+47092,China,CHN,22.767,114.338,198000.0,reported as treated,Secondary,Not Reported,620000,False,True
+46554,China,CHN,37.592,121.357,196600.0,reported as treated,Secondary,Not Reported,723500,False,False
+47154,China,CHN,22.828,108.369,196000.0,reported as treated,Secondary,Not Reported,343000,False,True
+46952,China,CHN,23.053,113.235,193000.0,reported as treated,Secondary,Not Reported,400000,False,True
+47139,China,CHN,22.49,113.335,192800.0,reported as treated,Secondary,Not Reported,1250000,False,True
+47021,China,CHN,23.136,114.356,190000.0,reported as treated,Secondary,Not Reported,380000,False,True
+46232,China,CHN,31.398,118.342,181000.0,reported as treated,Secondary,Not Reported,1000000,False,True
+46383,China,CHN,36.695,116.951,174000.0,reported as treated,Secondary,Not Reported,392600,False,False
+47088,China,CHN,22.595,114.11,174000.0,reported as treated,Secondary,Not Reported,860000,False,True
+45795,China,CHN,31.953,119.969,168900.0,reported as treated,Secondary,Not Reported,1100000,False,True
+45834,China,CHN,31.981,120.876,168400.0,reported as treated,Secondary,Not Reported,1000000,False,True
+46495,China,CHN,36.158,120.363,167300.0,reported as treated,Secondary,Not Reported,250000,False,False
+45883,China,CHN,30.892,120.627,166800.0,reported as treated,Secondary,Not Reported,66000,False,True
+46623,China,CHN,34.647,112.43,165000.0,reported as treated,Secondary,Not Reported,820000,False,True
+46727,China,CHN,30.567,114.334,163000.0,reported as treated,Secondary,Not Reported,350000,False,True
+45992,China,CHN,34.217,117.221,162500.0,reported as treated,Secondary,Not Reported,1150000,False,True
+46047,China,CHN,30.036,119.981,161100.0,reported as treated,Secondary,Not Reported,30000,False,True
+46009,China,CHN,32.36,119.481,160800.0,reported as treated,Secondary,Not Reported,1150000,False,True
+46123,China,CHN,29.926,121.86,160100.0,reported as treated,Secondary,Not Reported,150000,False,True
+46726,China,CHN,30.495,114.375,160000.0,reported as treated,Secondary,Not Reported,363600,False,True
+45928,China,CHN,31.613,120.329,157600.0,reported as treated,Secondary,Not Reported,252000,False,True
+46177,China,CHN,32.943,117.332,157000.0,reported as treated,Secondary,Not Reported,680000,False,True
+45418,China,CHN,37.805,112.531,156000.0,reported as treated,Secondary,Not Reported,1210000,False,False
+46824,China,CHN,28.282,112.956,156000.0,reported as treated,Secondary,Not Reported,315000,False,True
+47559,China,CHN,36.088,103.737,154400.0,reported as treated,Secondary,Not Reported,489000,False,False
+46169,China,CHN,31.881,117.241,151000.0,reported as treated,Secondary,Not Reported,304000,False,True
+46497,China,CHN,36.358,120.425,150400.0,reported as treated,Secondary,Not Reported,341000,False,False
+47367,China,CHN,31.432,104.781,150000.0,reported as treated,Secondary,Not Reported,706200,False,True
+46462,China,CHN,35.027,118.345,146000.0,reported as treated,Secondary,Not Reported,850000,False,False
+46627,China,CHN,34.69,112.537,142000.0,reported as treated,Secondary,Not Reported,669000,False,True
+47406,China,CHN,26.541,106.685,142000.0,reported as treated,Secondary,Not Reported,760000,False,True
+46951,China,CHN,22.922,113.448,140600.0,reported as treated,Secondary,Not Reported,900000,False,True
+45567,China,CHN,41.688,123.204,140400.0,reported as treated,Secondary,Not Reported,600000,False,False
+45776,China,CHN,31.833,119.987,137000.0,reported as treated,Secondary,Not Reported,300000,False,True
+47243,China,CHN,20.016,110.367,136300.0,reported as treated,Secondary,Not Reported,1000000,False,True
+46308,China,CHN,28.726,115.876,136200.0,reported as treated,Secondary,Not Reported,1050000,False,True
+46940,China,CHN,23.096,113.459,132900.0,reported as treated,Secondary,Not Reported,806000,False,True
+45520,China,CHN,42.309,118.969,132000.0,reported as treated,Secondary,Not Reported,480000,False,False
+46019,China,CHN,32.257,119.402,131000.0,reported as treated,Secondary,Not Reported,510000,False,True
+46827,China,CHN,28.227,112.972,131000.0,reported as treated,Secondary,Not Reported,850000,False,True
+45494,China,CHN,40.76,111.642,130000.0,reported as treated,Secondary,Not Reported,840000,False,False
+46174,China,CHN,30.511,117.085,130000.0,reported as treated,Secondary,Not Reported,240000,False,True
+45668,China,CHN,43.931,126.49,129000.0,reported as treated,Secondary,Not Reported,200000,False,False
+46310,China,CHN,28.728,115.981,129000.0,reported as treated,Secondary,Not Reported,750000,False,True
+47499,China,CHN,34.25,108.846,129000.0,reported as treated,Secondary,Not Reported,600000,False,True
+46638,China,CHN,33.581,114.058,128000.0,reported as treated,Secondary,Not Reported,369800,False,True
+45880,China,CHN,31.264,120.586,127100.0,reported as treated,Secondary,Not Reported,250000,False,True
+45881,China,CHN,31.334,120.656,126000.0,reported as treated,Secondary,Not Reported,66000,False,True
+46779,China,CHN,32.598,110.808,125000.0,reported as treated,Secondary,Not Reported,464500,False,True
+47096,China,CHN,22.749,113.778,124200.0,reported as treated,Secondary,Not Reported,620000,False,True
+45730,China,CHN,31.403,121.28,123900.0,reported as treated,Secondary,Not Reported,670000,False,True
+45243,China,CHN,37.983,114.468,123500.0,reported as treated,Secondary,Not Reported,500000,False,False
+46542,China,CHN,36.956,118.785,123400.0,reported as treated,Secondary,Not Reported,400000,False,False
+47502,China,CHN,34.374,109.008,122800.0,reported as treated,Secondary,Not Reported,750000,False,True
+46116,China,CHN,29.836,121.523,122000.0,reported as treated,Secondary,Not Reported,480000,False,True
+47510,China,CHN,34.362,107.226,120700.0,reported as treated,Secondary,Not Reported,1000000,False,True
+45930,China,CHN,31.498,120.376,120200.0,reported as treated,Secondary,Not Reported,800000,False,True
+46823,China,CHN,28.22,112.956,120000.0,reported as treated,Secondary,Not Reported,430000,False,True
+46853,China,CHN,26.902,112.58,120000.0,reported as treated,Secondary,Not Reported,820000,False,True
+47558,China,CHN,36.052,103.935,119400.0,reported as treated,Secondary,Not Reported,628000,False,False
+47106,China,CHN,22.562,114.25,119000.0,reported as treated,Secondary,Not Reported,125000,False,True
+46046,China,CHN,30.044,119.978,117500.0,reported as treated,Secondary,Not Reported,120000,False,True
+46686,China,CHN,35.315,113.847,116800.0,reported as treated,Secondary,Not Reported,540000,False,False
+45573,China,CHN,41.16,122.919,116500.0,reported as treated,Secondary,Not Reported,460000,False,False
+45630,China,CHN,41.281,123.11,116000.0,reported as treated,Secondary,Not Reported,320000,False,False
+46167,China,CHN,31.788,117.24,116000.0,reported as treated,Secondary,Not Reported,68000,False,True
+46807,China,CHN,30.701,111.31,116000.0,reported as treated,Secondary,Not Reported,586400,False,True
+47237,China,CHN,22.664,110.152,115200.0,reported as treated,Secondary,Not Reported,530000,False,True
+45631,China,CHN,41.223,123.223,115000.0,reported as treated,Secondary,Not Reported,300000,False,False
+46277,China,CHN,24.883,118.606,114800.0,reported as treated,Secondary,Not Reported,1000000,False,True
+45600,China,CHN,38.953,121.585,114700.0,reported as treated,Secondary,Not Reported,750000,False,False
+46970,China,CHN,22.845,114.107,113400.0,reported as treated,Secondary,Not Reported,460000,False,True
+46975,China,CHN,22.885,113.888,112200.0,reported as treated,Secondary,Not Reported,290000,False,True
+46412,China,CHN,37.448,118.534,112000.0,reported as treated,Secondary,Not Reported,530000,False,False
+47140,China,CHN,22.637,113.208,112000.0,reported as treated,Secondary,Not Reported,320000,False,True
+47443,China,CHN,24.985,102.702,112000.0,reported as treated,Secondary,Not Reported,610000,False,True
+46488,China,CHN,36.072,120.441,111000.0,reported as treated,Secondary,Not Reported,850000,False,False
+45612,China,CHN,42.024,121.606,110000.0,reported as treated,Secondary,Not Reported,600000,False,False
+46973,China,CHN,22.791,113.803,110000.0,reported as treated,Secondary,Not Reported,320000,False,True
+47093,China,CHN,22.676,114.04,107300.0,reported as treated,Secondary,Not Reported,1000000,False,True
+45368,China,CHN,39.615,118.215,107000.0,reported as treated,Secondary,Not Reported,400000,False,False
+46543,China,CHN,36.749,119.105,107000.0,reported as treated,Secondary,Not Reported,812000,False,False
+46654,China,CHN,33.775,113.208,107000.0,reported as treated,Secondary,Not Reported,270000,False,True
+47442,China,CHN,25.019,102.679,107000.0,reported as treated,Secondary,Not Reported,589000,False,True
+45969,China,CHN,31.506,120.38,106200.0,reported as treated,Secondary,Not Reported,640000,False,True
+46737,China,CHN,30.481,114.215,105100.0,reported as treated,Secondary,Not Reported,239000,False,True
+45357,China,CHN,39.939,119.574,105000.0,reported as treated,Secondary,Not Reported,438000,False,False
+45988,China,CHN,34.308,117.24,105000.0,reported as treated,Secondary,Not Reported,320000,False,True
+46552,China,CHN,37.4,121.538,104000.0,reported as treated,Secondary,Not Reported,325000,False,False
+46967,China,CHN,23.04,113.839,103800.0,reported as treated,Secondary,Not Reported,300000,False,True
+46094,China,CHN,29.311,120.055,103200.0,reported as treated,Secondary,Not Reported,100000,False,True
+45490,China,CHN,36.202,113.073,103000.0,reported as treated,Secondary,Not Reported,506400,False,False
+46138,China,CHN,29.992,120.85,103000.0,reported as treated,Secondary,Not Reported,350000,False,True
+46112,China,CHN,29.898,121.594,102900.0,reported as treated,Secondary,Not Reported,290000,False,True
+46606,China,CHN,35.198,113.272,102000.0,reported as treated,Secondary,Not Reported,428000,False,False
+47498,China,CHN,34.291,108.865,102000.0,reported as treated,Secondary,Not Reported,600000,False,True
+45397,China,CHN,37.078,114.535,101000.0,reported as treated,Secondary,Not Reported,260000,False,False
+46587,China,CHN,34.787,113.61,101000.0,reported as treated,Secondary,Not Reported,370000,False,True
+46292,China,CHN,24.466,118.172,100900.0,reported as treated,Secondary,Not Reported,480000,False,True
+46253,China,CHN,25.142,117.052,100300.0,reported as treated,Secondary,Not Reported,560000,False,True
+47117,China,CHN,21.141,110.377,100100.0,reported as treated,Secondary,Not Reported,620000,False,True
+45583,China,CHN,41.518,120.415,100000.0,reported as treated,Secondary,Not Reported,330000,False,False
+45634,China,CHN,41.131,121.948,100000.0,reported as treated,Secondary,Not Reported,350000,False,False
+45683,China,CHN,42.902,129.6,100000.0,reported as treated,Secondary,Not Reported,413000,False,False
+46720,China,CHN,32.944,114.055,100000.0,reported as treated,Secondary,Not Reported,312000,False,True
+46833,China,CHN,29.052,111.731,100000.0,reported as treated,Secondary,Not Reported,730000,False,True
+47091,China,CHN,22.656,114.203,100000.0,reported as treated,Secondary,Not Reported,500000,False,True
+47608,China,CHN,44.311,86.14,100000.0,reported as treated,Secondary,Not Reported,344000,False,False
+54311,Egypt,EGY,30.109,31.278,906460.0,estimated,Secondary,Not Reported,2996934,False,True
+54413,Egypt,EGY,31.225,29.989,664787.0,estimated,Secondary,Not Reported,2197915,False,True
+54305,Egypt,EGY,30.034,31.181,646734.0,estimated,Secondary,Not Reported,2138229,False,True
+54313,Egypt,EGY,30.115,31.212,414964.0,estimated,Secondary,Not Reported,1371953,False,True
+54304,Egypt,EGY,30.009,31.225,404633.0,estimated,Secondary,Not Reported,1337795,False,True
+54410,Egypt,EGY,31.202,29.921,385409.0,estimated,Secondary,Not Reported,1274238,False,True
+54221,Egypt,EGY,26.608,31.715,356026.0,estimated,Secondary,Not Reported,1177090,False,True
+54307,Egypt,EGY,30.058,31.243,331742.0,estimated,Secondary,Not Reported,1096803,False,True
+54308,Egypt,EGY,30.059,31.186,327211.0,estimated,Secondary,Not Reported,1081823,False,True
+54302,Egypt,EGY,29.954,31.256,295821.0,estimated,Secondary,Not Reported,978043,False,True
+54227,Egypt,EGY,27.173,31.203,240734.0,estimated,Secondary,Not Reported,795914,False,True
+54389,Egypt,EGY,31.015,30.451,237696.0,estimated,Secondary,Not Reported,785870,False,True
+54225,Egypt,EGY,27.042,31.329,225356.0,estimated,Secondary,Not Reported,745069,False,True
+54323,Egypt,EGY,30.321,30.964,224227.0,estimated,Secondary,Not Reported,741339,False,True
+54242,Egypt,EGY,28.11,30.751,217043.0,estimated,Secondary,Not Reported,717585,False,True
+54310,Egypt,EGY,30.082,31.232,211417.0,estimated,Secondary,Not Reported,698986,False,True
+54364,Egypt,EGY,30.787,31.609,205703.0,estimated,Secondary,Not Reported,680095,False,True
+54198,Egypt,EGY,25.728,32.754,200603.0,estimated,Secondary,Not Reported,663232,False,True
+54238,Egypt,EGY,27.929,30.793,197712.0,estimated,Secondary,Not Reported,653673,False,True
+54396,Egypt,EGY,31.084,30.962,195384.0,estimated,Secondary,Not Reported,645978,False,True
+54352,Egypt,EGY,30.738,31.828,185024.0,estimated,Secondary,Not Reported,611725,False,True
+54328,Egypt,EGY,30.4,31.538,184874.0,estimated,Secondary,Not Reported,611230,False,True
+54414,Egypt,EGY,31.23,32.297,184552.0,estimated,Secondary,Not Reported,610164,False,True
+54402,Egypt,EGY,31.136,30.653,174608.0,estimated,Secondary,Not Reported,577288,False,True
+54316,Egypt,EGY,30.189,31.417,159122.0,estimated,Secondary,Not Reported,526087,False,True
+54434,Egypt,EGY,31.465,31.796,157816.0,estimated,Secondary,Not Reported,521770,False,True
+54390,Egypt,EGY,31.018,29.757,157721.0,estimated,Secondary,Not Reported,521458,False,True
+54246,Egypt,EGY,28.312,30.738,151728.0,estimated,Secondary,Not Reported,501642,False,True
+54412,Egypt,EGY,31.205,30.571,148220.0,estimated,Secondary,Not Reported,490043,False,True
+54406,Egypt,EGY,31.192,31.641,147166.0,estimated,Secondary,Not Reported,486559,False,True
+54423,Egypt,EGY,31.33,31.747,147089.0,estimated,Secondary,Not Reported,486303,False,True
+54380,Egypt,EGY,30.928,30.799,141650.0,estimated,Secondary,Not Reported,468323,False,True
+54226,Egypt,EGY,27.16,31.145,141281.0,estimated,Secondary,Not Reported,467101,False,True
+54409,Egypt,EGY,31.201,29.965,139824.0,estimated,Secondary,Not Reported,462284,False,True
+54309,Egypt,EGY,30.064,31.221,130123.0,estimated,Secondary,Not Reported,430213,False,True
+54407,Egypt,EGY,31.198,31.52,122414.0,estimated,Secondary,Not Reported,404723,False,True
+54397,Egypt,EGY,31.089,30.299,120956.0,estimated,Secondary,Not Reported,399905,False,True
+54260,Egypt,EGY,29.07,31.097,116712.0,estimated,Secondary,Not Reported,385872,False,True
+54256,Egypt,EGY,28.917,30.958,116171.0,estimated,Secondary,Not Reported,384084,False,True
+54401,Egypt,EGY,31.136,31.951,115064.0,estimated,Secondary,Not Reported,380424,False,True
+54194,Egypt,EGY,25.604,32.494,114699.0,estimated,Secondary,Not Reported,379217,False,True
+54386,Egypt,EGY,30.99,31.671,113622.0,estimated,Secondary,Not Reported,375658,False,True
+53626,Indonesia,IDN,-7.3,112.745,1224235.0,estimated,Primary,Not Reported,3192159,False,True
+53643,Indonesia,IDN,-6.122,106.798,996173.0,estimated,Primary,Not Reported,2597494,False,True
+53642,Indonesia,IDN,-6.133,106.736,807524.0,estimated,Secondary,Not Reported,2105596,False,True
+53645,Indonesia,IDN,-5.147,119.455,679933.0,estimated,Secondary,Not Reported,1772907,False,True
+53641,Indonesia,IDN,-6.135,106.741,655123.0,estimated,Secondary,Not Reported,1708214,False,True
+53638,Indonesia,IDN,-6.298,107.1,619799.0,estimated,Secondary,Not Reported,1616110,False,True
+55224,Indonesia,IDN,3.569,98.611,581268.0,estimated,Secondary,Not Reported,1515640,False,True
+53616,Indonesia,IDN,-8.719,115.206,493546.0,estimated,Secondary,Not Reported,1286907,False,True
+53639,Indonesia,IDN,-6.275,107.126,383658.0,estimated,Secondary,Not Reported,1000377,False,True
+55228,Indonesia,IDN,3.731,98.664,370665.0,estimated,Secondary,Not Reported,966498,False,True
+53637,Indonesia,IDN,-6.426,107.418,365706.0,estimated,Secondary,Not Reported,953570,False,True
+53625,Indonesia,IDN,-7.529,110.733,336139.0,estimated,Secondary,Not Reported,876474,False,True
+53667,Indonesia,IDN,-0.962,100.388,316659.0,estimated,Secondary,Not Reported,825681,False,True
+53635,Indonesia,IDN,-6.689,110.726,244905.0,estimated,Secondary,Not Reported,638584,False,True
+53622,Indonesia,IDN,-7.764,110.376,239830.0,estimated,Secondary,Not Reported,625350,False,True
+55219,Indonesia,IDN,3.481,98.677,230208.0,estimated,Secondary,Not Reported,600260,False,True
+53621,Indonesia,IDN,-7.808,110.36,223893.0,estimated,Secondary,Not Reported,583796,False,True
+53619,Indonesia,IDN,-7.862,110.335,171884.0,estimated,Secondary,Not Reported,448182,False,True
+53634,Indonesia,IDN,-6.805,107.349,170765.0,estimated,Secondary,Not Reported,445264,False,True
+53624,Indonesia,IDN,-7.677,110.298,164056.0,estimated,Secondary,Not Reported,427771,False,True
+53623,Indonesia,IDN,-7.687,110.414,155853.0,estimated,Secondary,Not Reported,406383,False,True
+54883,Indonesia,IDN,1.057,104.032,147806.0,estimated,Secondary,Not Reported,385399,False,True
+53627,Indonesia,IDN,-6.981,109.911,144218.0,estimated,Secondary,Not Reported,376044,False,True
+53636,Indonesia,IDN,-6.643,106.568,142882.0,estimated,Secondary,Not Reported,372562,False,True
+54882,Indonesia,IDN,1.049,104.032,115454.0,estimated,Secondary,Not Reported,301043,False,True
+55367,Indonesia,IDN,5.581,95.314,112449.0,estimated,Secondary,Not Reported,293209,False,True
+54886,Indonesia,IDN,1.167,104.097,111767.0,estimated,Secondary,Not Reported,291429,False,True
+52263,India,IND,19.045,72.826,796900.0,reported as design capacity,Secondary,Operational,5324246,False,True
+52262,India,IND,18.993,72.816,756900.0,reported as design capacity,Secondary,Operational,5056998,False,True
+52645,India,IND,26.837,81.039,345000.0,reported as design capacity,Secondary,Operational,2305013,False,True
+52571,India,IND,17.383,78.534,339000.0,reported as design capacity,Secondary,Operational,2264926,False,True
+52267,India,IND,19.079,72.932,300000.0,reported as design capacity,Primary,Operational,2004359,False,True
+52266,India,IND,19.143,72.961,280000.0,reported as design capacity,Primary,Operational,1870735,False,True
+51995,India,IND,22.981,72.528,240000.0,reported as design capacity,Secondary,Non-Operational,1603487,False,True
+52265,India,IND,19.181,72.825,240000.0,reported as design capacity,Secondary,Operational,1603487,False,True
+52631,India,IND,26.371,80.316,210000.0,reported as design capacity,Secondary,Operational,854627,False,True
+51918,India,IND,30.675,76.739,205000.0,reported as design capacity,Secondary,Operational,98711,False,True
+51927,India,IND,28.604,77.328,202500.0,reported as design capacity,Secondary,Operational,1352942,False,True
+51937,India,IND,28.546,77.28,202500.0,reported as design capacity,Secondary,Operational,1352942,False,True
+51990,India,IND,22.976,72.544,182000.0,reported as design capacity,Secondary,Non-Operational,1215978,False,True
+51932,India,IND,28.724,77.106,180000.0,reported as design capacity,Secondary,Operational,1299,False,True
+51933,India,IND,28.724,77.106,180000.0,reported as design capacity,Secondary,Operational,1299,False,True
+51943,India,IND,28.653,77.083,180000.0,reported as design capacity,Secondary,Operational,1202615,False,True
+51944,India,IND,28.657,77.053,180000.0,reported as design capacity,Secondary,Operational,1202615,False,True
+51991,India,IND,22.972,72.548,180000.0,reported as design capacity,Secondary,Operational,1202615,False,True
+52157,India,IND,12.936,77.523,180000.0,reported as design capacity,Secondary,Operational,43294,False,True
+52264,India,IND,19.148,72.814,180000.0,reported as design capacity,Primary,Operational,1202615,False,True
+52578,India,IND,17.386,78.575,172000.0,reported as design capacity,Secondary,Operational,1149166,False,True
+51938,India,IND,28.544,77.287,166500.0,reported as design capacity,Secondary,Operational,1112419,False,True
+52160,India,IND,12.939,77.658,163000.0,reported as design capacity,Secondary,Operational,64075,False,True
+52008,India,IND,21.157,72.815,162000.0,reported as design capacity,Secondary,Operational,1082354,False,True
+52019,India,IND,28.475,76.994,157500.0,reported as design capacity,Secondary,Operational,1052289,False,True
+52005,India,IND,21.222,72.814,155000.0,reported as design capacity,Secondary,Operational,1035586,False,True
+52341,India,IND,30.936,75.788,152000.0,reported as design capacity,Secondary,Operational,1015542,False,True
+51985,India,IND,21.643,73.035,150000.0,reported as design capacity,Primary,Operational,597615,False,True
+52230,India,IND,23.111,79.913,150000.0,reported as design capacity,Secondary,Operational,911077,False,True
+52011,India,IND,21.204,72.861,142000.0,reported as design capacity,Secondary,Operational,948730,False,True
+52617,India,IND,28.443,77.541,137000.0,reported as design capacity,Secondary,Operational,915324,False,True
+51935,India,IND,28.548,77.279,135000.0,reported as design capacity,Secondary,Operational,901962,False,True
+51940,India,IND,28.545,77.282,135000.0,reported as design capacity,Secondary,Operational,901962,False,True
+52303,India,IND,18.538,73.902,130000.0,reported as design capacity,Secondary,Operational,868556,False,True
+52630,India,IND,26.417,80.42,130000.0,reported as design capacity,Secondary,Operational,868556,False,True
+51992,India,IND,22.979,72.522,126000.0,reported as design capacity,Secondary,Operational,841831,False,True
+52521,India,IND,9.871,78.103,125000.0,reported as design capacity,Secondary,Operational,90052,False,True
+52313,India,IND,19.178,72.974,120000.0,reported as design capacity,Secondary,Operational,801744,False,True
+52505,India,IND,13.064,80.201,120000.0,reported as design capacity,Secondary,Under Construction,801744,False,True
+51925,India,IND,28.607,77.325,112500.0,reported as design capacity,Secondary,Operational,751635,False,True
+52338,India,IND,30.964,75.829,111000.0,reported as design capacity,Secondary,Operational,741613,False,True
+52501,India,IND,13.138,80.26,110000.0,reported as design capacity,Secondary,Operational,734932,False,True
+52214,India,IND,8.459,76.937,107000.0,reported as design capacity,Secondary,Operational,714888,False,True
+51988,India,IND,22.993,72.568,106000.0,reported as design capacity,Secondary,Operational,708207,False,True
+52342,India,IND,30.936,75.784,105000.0,reported as design capacity,Secondary,Operational,701526,False,True
+52007,India,IND,21.124,72.824,100000.0,reported as design capacity,Secondary,Operational,668120,False,True
+52009,India,IND,21.122,72.814,100000.0,reported as design capacity,Secondary,Operational,668120,False,True
+52269,India,IND,21.14,79.159,100000.0,reported as design capacity,Secondary,Operational,327160,False,True
+52279,India,IND,19.009,73.019,100000.0,reported as design capacity,Secondary,Operational,668120,False,True
+52281,India,IND,19.072,73.004,100000.0,reported as design capacity,Secondary,Operational,668120,False,True
+52314,India,IND,19.189,72.991,100000.0,reported as design capacity,Secondary,Non-Operational,668120,False,True
+52395,India,IND,31.275,75.591,100000.0,reported as design capacity,Secondary,Operational,32326,False,True
+55420,Cambodia,KHM,11.529,104.925,187032.0,estimated,Secondary,Not Reported,1626363,False,True
+44901,Mexico,MEX,20.008,-99.219,1870560.0,reported as treated,Secondary,Not Reported,310857,False,True
+43000,Mexico,MEX,25.723,-100.073,615341.0,reported as treated,Secondary,Not Reported,3216520,False,True
+44659,Mexico,MEX,20.778,-103.322,518400.0,reported as treated,Secondary,Not Reported,4172718,False,True
+42992,Mexico,MEX,25.808,-100.327,222307.0,reported as treated,Secondary,Not Reported,2348444,False,True
+44526,Mexico,MEX,20.473,-103.447,194400.0,reported as treated,Secondary,Not Reported,109527,False,True
+44994,Mexico,MEX,29.099,-110.954,191981.0,reported as treated,Secondary,Not Reported,272547,False,True
+42611,Mexico,MEX,21.879,-102.3,163316.0,reported as treated,Secondary,Not Reported,44092,False,True
+43211,Mexico,MEX,24.799,-107.384,145757.0,reported as treated,Primary,Not Reported,430352,False,True
+42801,Mexico,MEX,24.024,-104.67,145152.0,reported as treated,Secondary,Not Reported,124635,False,True
+43186,Mexico,MEX,31.739,-106.487,139968.0,reported as treated,Secondary,Not Reported,353123,False,True
+43612,Mexico,MEX,28.635,-106.089,139968.0,reported as treated,Secondary,Not Reported,448463,False,True
+43196,Mexico,MEX,21.119,-101.681,131760.0,reported as treated,Primary,Not Reported,166116,False,True
+42787,Mexico,MEX,19.358,-99.093,129254.0,reported as treated,Secondary,Not Reported,1365438,False,True
+43420,Mexico,MEX,25.544,-103.442,120960.0,reported as treated,Secondary,Not Reported,258023,False,True
+42850,Mexico,MEX,16.871,-99.898,116640.0,reported as treated,Secondary,Not Reported,58444,False,True
+43187,Mexico,MEX,31.739,-106.487,116640.0,reported as treated,Secondary,Not Reported,353123,False,True
+42985,Mexico,MEX,25.813,-100.151,115776.0,reported as treated,Secondary,Not Reported,344554,False,True
+43388,Mexico,MEX,19.043,-98.197,111629.0,reported as treated,Primary,Not Reported,545480,False,True
+42915,Mexico,MEX,19.292,-99.654,101262.0,reported as treated,Secondary,Not Reported,797713,False,True
+58397,Mongolia,MNG,47.902,106.764,117983.0,estimated,Secondary,Not Reported,537371,False,False
+53831,Nicaragua,NIC,12.162,-86.204,153800.0,estimated,Secondary,Not Reported,546258,False,True
+53830,Nicaragua,NIC,12.151,-86.351,138283.0,estimated,Secondary,Not Reported,491145,False,True
+54165,Pakistan,PAK,24.898,67.097,254164.0,estimated,Primary,Not Reported,10146131,False,True
+53178,Peru,PER,-11.995,-77.133,1209600.0,reported as treated,Secondary,Not Reported,7888012,False,True
+53173,Peru,PER,-12.263,-76.818,146880.0,reported as treated,Secondary,Not Reported,1361281,False,True
+53133,Peru,PER,-3.718,-73.261,125280.0,reported as treated,Secondary,Not Reported,283026,False,True
+55443,Thailand,THA,13.73,100.514,411639.0,estimated,Secondary,Not Reported,866269,False,True
+55449,Thailand,THA,13.878,100.53,363275.0,estimated,Secondary,Not Reported,764490,False,True
+55447,Thailand,THA,13.772,100.65,266808.0,estimated,Secondary,Not Reported,561481,False,True
+55444,Thailand,THA,13.734,100.552,193043.0,estimated,Secondary,Not Reported,406247,False,True
+55448,Thailand,THA,13.777,100.572,188927.0,estimated,Secondary,Not Reported,397585,False,True
+55437,Thailand,THA,13.559,100.661,148783.0,estimated,Secondary,Not Reported,313106,False,True
+56216,Turkey,TUR,40.974,28.84,429660.0,estimated,Secondary,Not Reported,3891658,False,False
+56242,Turkey,TUR,41.101,29.018,199005.0,estimated,Secondary,Not Reported,1802492,False,False
+56214,Turkey,TUR,40.959,29.093,193245.0,estimated,Secondary,Not Reported,1750320,False,False
+56228,Turkey,TUR,41.064,28.698,180296.0,estimated,Secondary,Not Reported,1633033,False,False
+56074,Turkey,TUR,38.466,27.128,170024.0,estimated,Secondary,Not Reported,1539996,False,False
+56219,Turkey,TUR,40.988,29.02,128456.0,estimated,Secondary,Not Reported,1163490,False,False
+55411,Vietnam,VNM,10.727,106.703,286684.0,estimated,Secondary,Not Reported,463346,False,True
+55410,Vietnam,VNM,10.703,106.604,142454.0,estimated,Secondary,Not Reported,230238,False,True
+51538,South Africa,ZAF,-25.948,27.987,460000.0,"reported, type not identified",Secondary,Not Reported,133461,False,True
+51555,South Africa,ZAF,-26.321,27.9,250000.0,"reported, type not identified",Secondary,Not Reported,116358,False,True
+51712,South Africa,ZAF,-29.958,30.97,230000.0,"reported, type not identified",Secondary,Not Reported,1701925,False,True
+51670,South Africa,ZAF,-25.557,28.228,220000.0,"reported, type not identified",Secondary,Not Reported,59298,False,True
+51031,South Africa,ZAF,-26.312,27.933,200000.0,"reported, type not identified",Secondary,Not Reported,116358,False,True
+51041,South Africa,ZAF,-34.05,18.506,200000.0,"reported, type not identified",Secondary,Not Reported,501632,False,True
+51854,South Africa,ZAF,-26.264,28.054,170000.0,"reported, type not identified",Secondary,Not Reported,145288,False,True
+51203,South Africa,ZAF,-26.273,27.924,150000.0,"reported, type not identified",Secondary,Not Reported,116358,False,True
+51052,South Africa,ZAF,-29.879,31.059,135000.0,"reported, type not identified",Secondary,Not Reported,998956,False,True
+51172,South Africa,ZAF,-33.485,27.136,132000.0,"reported, type not identified",Secondary,Not Reported,18368,False,True
+50961,South Africa,ZAF,-34.05,18.506,105000.0,"reported, type not identified",Secondary,Not Reported,501632,False,True
+51552,South Africa,ZAF,-25.562,28.126,105000.0,"reported, type not identified",Secondary,Not Reported,10389,False,True
+51691,South Africa,ZAF,-26.573,27.816,100000.0,"reported, type not identified",Secondary,Not Reported,115559,False,True
+49836,Australia,AUS,-31.955,115.794,108899.0,estimated,Advanced,Operational,420859,True,True
+49777,Australia,AUS,-33.957,150.963,106446.0,estimated,Advanced,Operational,411381,True,True
+24534,Austria,AUT,48.173,16.474,536237.0,reported as treated,Advanced,Not Reported,2551005,True,False
+24215,Austria,AUT,48.246,14.441,161739.0,reported as treated,Advanced,Not Reported,851592,True,False
+18746,Belgium,BEL,50.904,4.411,281644.0,reported as treated,Secondary,Not Reported,1100000,True,False
+1872,Bulgaria,BGR,42.759,23.376,365769.0,reported as treated,Advanced,Not Reported,1527750,True,False
+54204,Bahrain,BHR,26.195,50.553,172594.0,estimated,Advanced,Not Reported,867904,True,True
+47641,Canada,CAN,45.673,-73.525,2237760.0,reported as treated,Advanced,Operational,1190406,True,False
+47813,Canada,CAN,43.657,-79.317,576071.0,reported as treated,Advanced,Operational,1283062,True,False
+47646,Canada,CAN,49.217,-123.204,565295.0,reported as treated,Advanced,Operational,1259061,True,False
+47645,Canada,CAN,49.164,-122.951,494191.0,reported as treated,Advanced,Operational,1100693,True,False
+47861,Canada,CAN,43.579,-79.543,455634.0,reported as treated,Advanced,Operational,1014817,True,False
+47781,Canada,CAN,45.464,-75.593,400000.0,reported as treated,Advanced,Operational,890905,True,False
+47788,Canada,CAN,51.01,-114.02,364250.0,reported as treated,Advanced,Operational,811281,True,False
+47809,Canada,CAN,43.634,-79.477,330000.0,reported as treated,Advanced,Operational,734997,True,False
+47756,Canada,CAN,45.584,-73.486,326648.0,reported as treated,Advanced,Operational,727531,True,False
+47638,Canada,CAN,43.816,-79.048,325627.0,reported as treated,Advanced,Operational,725257,True,False
+47806,Canada,CAN,43.252,-79.771,278146.0,reported as treated,Advanced,Operational,619504,True,False
+47644,Canada,CAN,53.561,-113.41,254260.0,reported as treated,Advanced,Operational,566304,True,False
+47695,Canada,CAN,45.629,-73.645,252000.0,reported as treated,Advanced,Operational,271719,True,False
+47753,Canada,CAN,46.837,-71.207,191564.0,reported as treated,Advanced,Operational,426663,True,False
+47784,Canada,CAN,49.952,-97.109,171353.0,reported as treated,Advanced,Operational,381648,True,False
+47892,Canada,CAN,43.766,-79.149,171117.0,reported as treated,Advanced,Operational,381123,True,False
+47754,Canada,CAN,46.789,-71.318,164279.0,reported as treated,Advanced,Operational,365893,True,False
+47863,Canada,CAN,43.496,-79.62,160244.0,reported as treated,Advanced,Operational,356906,True,False
+47750,Canada,CAN,42.282,-83.082,142300.0,reported as treated,Advanced,Operational,316940,True,False
+47687,Canada,CAN,45.477,-75.604,136000.0,reported as treated,Advanced,Operational,302908,True,False
+47792,Canada,CAN,42.976,-81.282,114822.0,reported as treated,Advanced,Operational,255739,True,False
+47705,Canada,CAN,47.554,-52.71,101975.0,reported as treated,Advanced,Operational,164586,True,False
+1104,Switzerland,CHE,47.401,8.482,285488.0,estimated,Advanced,Not Reported,628936,True,False
+1760,Switzerland,CHE,46.195,6.09,246786.0,estimated,Advanced,Not Reported,543675,True,False
+1274,Switzerland,CHE,47.583,7.599,167346.0,estimated,Advanced,Not Reported,368667,True,False
+1111,Switzerland,CHE,46.971,7.433,145255.0,estimated,Advanced,Not Reported,320000,True,False
+1710,Switzerland,CHE,46.26,6.974,132623.0,estimated,Advanced,Not Reported,292172,True,False
+1734,Switzerland,CHE,46.3,7.859,108272.0,estimated,Advanced,Not Reported,238526,True,False
+53342,Chile,CHL,-33.471,-70.787,367571.0,estimated,Advanced,Not Reported,2226275,True,True
+53344,Chile,CHL,-33.343,-70.545,115885.0,estimated,Advanced,Not Reported,701880,True,True
+23242,Czech Republic,CZE,50.117,14.398,273749.0,reported as treated,Secondary,Not Reported,1580000,True,False
+20114,Germany,DEU,51.536,6.78,879318.0,reported as treated,Advanced,Not Reported,1602833,True,False
+19151,Germany,DEU,53.527,9.936,435616.0,reported as treated,Advanced,Not Reported,2300000,True,False
+19654,Germany,DEU,51.511,6.981,341174.0,reported as treated,Advanced,Not Reported,1025750,True,False
+22143,Germany,DEU,48.204,11.667,297652.0,reported as treated,Advanced,Not Reported,1063900,True,False
+22572,Germany,DEU,52.534,13.229,247763.0,reported as treated,Advanced,Not Reported,1454925,True,False
+20140,Germany,DEU,50.088,8.62,215331.0,reported as treated,Advanced,Not Reported,1270000,True,False
+22574,Germany,DEU,52.434,13.496,203159.0,reported as treated,Advanced,Not Reported,1686561,True,False
+19699,Germany,DEU,50.988,6.972,188990.0,reported as treated,Advanced,Not Reported,1527604,True,False
+20854,Germany,DEU,48.848,9.245,163412.0,reported as treated,Advanced,Not Reported,777300,True,False
+22142,Germany,DEU,48.295,11.699,163263.0,reported as treated,Advanced,Not Reported,427767,True,False
+21749,Germany,DEU,48.413,10.889,136752.0,reported as treated,Advanced,Not Reported,608270,True,False
+22206,Germany,DEU,49.465,11.02,132255.0,reported as treated,Advanced,Not Reported,911330,True,False
+20074,Germany,DEU,51.196,6.733,113160.0,reported as treated,Advanced,Not Reported,612817,True,False
+20078,Germany,DEU,51.222,7.106,113088.0,reported as treated,Advanced,Not Reported,381030,True,False
+22573,Germany,DEU,52.613,13.453,111440.0,reported as treated,Advanced,Not Reported,879869,True,False
+19613,Germany,DEU,51.538,7.425,110258.0,reported as treated,Advanced,Not Reported,826884,True,False
+21121,Germany,DEU,49.047,8.362,104023.0,reported as treated,Advanced,Not Reported,487700,True,False
+22808,Germany,DEU,51.071,13.674,102300.0,reported as treated,Advanced,Not Reported,682000,True,False
+22910,Germany,DEU,51.356,12.342,102182.0,reported as treated,Advanced,Not Reported,534242,True,False
+12018,Denmark,DNK,55.697,12.659,154918.0,reported as treated,Advanced,Not Reported,686950,True,False
+9008,Spain,ESP,41.402,2.259,343720.0,reported as treated,Secondary,Not Reported,1951826,True,False
+8129,Spain,ESP,43.304,-2.991,331729.0,reported as treated,Advanced,Not Reported,1211499,True,False
+9072,Spain,ESP,41.282,2.16,258487.0,reported as treated,Advanced,Not Reported,1398532,True,False
+8346,Spain,ESP,40.315,-3.617,250147.0,reported as treated,Advanced,Not Reported,1085405,True,False
+9303,Spain,ESP,39.428,-0.347,211907.0,reported as treated,Advanced,Not Reported,1497368,True,False
+8091,Spain,ESP,43.497,-3.885,177018.0,reported as treated,Secondary,Not Reported,288372,True,False
+7987,Spain,ESP,42.227,-8.791,158076.0,reported as treated,Advanced,Not Reported,418686,True,False
+9468,Spain,ESP,36.665,-4.432,147049.0,reported as treated,Advanced,Not Reported,731782,True,False
+8251,Spain,ESP,41.61,-0.802,141927.0,reported as treated,Advanced,Not Reported,651866,True,False
+8478,Spain,ESP,41.612,-4.778,135869.0,reported as treated,Advanced,Not Reported,751600,True,False
+8047,Spain,ESP,43.406,-5.825,117845.0,reported as treated,Secondary,Not Reported,323200,True,False
+9302,Spain,ESP,39.435,-0.345,116043.0,reported as treated,Advanced,Not Reported,419170,True,False
+8348,Spain,ESP,40.332,-3.657,111168.0,reported as treated,Advanced,Not Reported,517110,True,False
+9687,Spain,ESP,37.308,-5.99,110353.0,reported as treated,Advanced,Not Reported,710488,True,False
+7988,Spain,ESP,43.374,-8.466,107635.0,reported as treated,Advanced,Not Reported,581344,True,False
+8121,Spain,ESP,43.348,-1.952,106803.0,reported as treated,Secondary,Not Reported,553000,True,False
+8169,Spain,ESP,42.81,-1.731,105976.0,reported as treated,Secondary,Not Reported,713450,True,False
+8473,Spain,ESP,42.554,-5.564,102162.0,reported as treated,Secondary,Not Reported,330000,True,False
+90,Estonia,EST,59.48,24.669,108428.0,estimated,Advanced,Not Reported,470612,True,False
+1035,Finland,FIN,60.088,24.912,181925.0,estimated,Advanced,Not Reported,1110000,True,False
+17435,France,FRA,48.806,2.16,764138.0,estimated,Advanced,Not Reported,4283333,True,False
+17433,France,FRA,48.779,2.417,468988.0,estimated,Advanced,Not Reported,2628883,True,False
+15322,France,FRA,43.213,5.403,323864.0,estimated,Secondary,Not Reported,1815400,True,False
+17436,France,FRA,48.933,2.244,181695.0,estimated,Advanced,Not Reported,1018480,True,False
+17437,France,FRA,48.948,2.003,159431.0,estimated,Advanced,Not Reported,893683,True,False
+16053,France,FRA,48.632,7.834,151638.0,estimated,Advanced,Not Reported,850000,True,False
+17894,France,FRA,45.691,4.842,128672.0,estimated,Advanced,Not Reported,721261,True,False
+15757,France,FRA,50.692,3.241,118207.0,estimated,Advanced,Not Reported,662600,True,False
+17954,France,FRA,45.254,5.644,109536.0,estimated,Secondary,Not Reported,614000,True,False
+17895,France,FRA,45.693,4.841,104722.0,estimated,Advanced,Not Reported,587015,True,False
+18269,France,FRA,43.63,1.402,101774.0,estimated,Advanced,Not Reported,570487,True,False
+11342,United Kingdom,GBR,51.515,0.095,752505.0,estimated,Secondary,Not Reported,3380000,True,False
+11439,United Kingdom,GBR,51.466,-0.321,436364.0,estimated,Secondary,Not Reported,1960000,True,False
+11379,United Kingdom,GBR,51.507,0.147,409648.0,estimated,Secondary,Not Reported,1840000,True,False
+10507,United Kingdom,GBR,52.52,-1.706,382238.0,estimated,Secondary,Not Reported,1716886,True,False
+10885,United Kingdom,GBR,53.464,-2.381,228522.0,estimated,Secondary,Not Reported,1026444,True,False
+10662,United Kingdom,GBR,54.989,-1.475,209283.0,estimated,Secondary,Not Reported,940030,True,False
+11215,United Kingdom,GBR,51.523,-2.695,202512.0,estimated,Secondary,Not Reported,909617,True,False
+11381,United Kingdom,GBR,51.621,-0.042,197477.0,estimated,Secondary,Not Reported,887000,True,False
+11428,United Kingdom,GBR,51.47,0.239,191020.0,estimated,Secondary,Not Reported,858000,True,False
+11559,United Kingdom,GBR,51.46,-3.08,188408.0,estimated,Secondary,Not Reported,846265,True,False
+10792,United Kingdom,GBR,53.772,-1.476,180709.0,estimated,Secondary,Not Reported,811683,True,False
+11708,United Kingdom,GBR,55.996,-3.131,166220.0,estimated,Advanced,Not Reported,746604,True,False
+10571,United Kingdom,GBR,52.701,-1.115,142953.0,estimated,Secondary,Not Reported,642099,True,False
+10953,United Kingdom,GBR,53.426,-3.007,140411.0,estimated,Secondary,Not Reported,630678,True,False
+10513,United Kingdom,GBR,52.973,-1.038,140303.0,estimated,Secondary,Not Reported,630196,True,False
+11691,United Kingdom,GBR,55.908,-4.444,121200.0,estimated,Secondary,Not Reported,544390,True,False
+11799,United Kingdom,GBR,55.869,-4.34,118842.0,estimated,Secondary,Not Reported,533800,True,False
+10752,United Kingdom,GBR,53.423,-1.392,118660.0,estimated,Secondary,Not Reported,532983,True,False
+10789,United Kingdom,GBR,53.736,-0.26,111321.0,estimated,Secondary,Not Reported,500016,True,False
+11432,United Kingdom,GBR,51.617,-0.496,111095.0,estimated,Secondary,Not Reported,499000,True,False
+10776,United Kingdom,GBR,53.845,-1.713,108771.0,estimated,Secondary,Not Reported,488563,True,False
+14326,Greece,GRC,37.938,23.587,1764940.0,estimated,Advanced,Not Reported,5205100,True,False
+14342,Greece,GRC,40.585,22.844,310935.0,estimated,Advanced,Not Reported,917000,True,False
+14297,Greece,GRC,38.078,23.771,152586.0,estimated,Advanced,Not Reported,450000,True,False
+55528,Hong Kong,HKG,22.328,114.157,170795.0,estimated,Advanced,Not Reported,710976,True,True
+55529,Hong Kong,HKG,22.345,114.111,159320.0,estimated,Advanced,Not Reported,663212,True,True
+55527,Hong Kong,HKG,22.325,114.202,142132.0,estimated,Advanced,Not Reported,591662,True,True
+55533,Hong Kong,HKG,22.407,114.214,127084.0,estimated,Advanced,Not Reported,529021,True,True
+55524,Hong Kong,HKG,22.306,114.223,107233.0,estimated,Advanced,Not Reported,446385,True,True
+12420,Hungary,HUN,47.455,19.057,133306.0,estimated,Advanced,Not Reported,1130850,True,False
+7789,Ireland,IRL,53.341,-6.183,1428851.0,estimated,Secondary,Not Reported,2124144,True,False
+7788,Ireland,IRL,51.88,-8.339,210304.0,estimated,Secondary,Not Reported,312640,True,False
+7768,Ireland,IRL,52.656,-8.681,188651.0,estimated,Secondary,Not Reported,280451,True,False
+7805,Ireland,IRL,53.25,-9.055,143564.0,estimated,Secondary,Not Reported,213424,True,False
+14727,Iceland,ISL,64.187,-22.003,120182.0,reported as treated,Primary,Not Reported,230518,True,False
+14726,Iceland,ISL,64.195,-21.927,100570.0,reported as treated,Primary,Not Reported,196060,True,False
+54487,Israel,ISR,32.103,34.852,172613.0,estimated,Advanced,Not Reported,984389,True,True
+4104,Italy,ITA,45.138,7.808,623282.0,reported as treated,Secondary,Not Reported,1999480,True,False
+4604,Italy,ITA,45.382,9.185,347967.0,reported as treated,Advanced,Not Reported,1085580,True,False
+4605,Italy,ITA,45.415,9.295,250526.0,reported as treated,Advanced,Not Reported,960443,True,False
+6075,Italy,ITA,41.814,12.42,217969.0,estimated,Advanced,Not Reported,1101052,True,False
+6519,Italy,ITA,43.782,11.127,213734.0,reported as treated,Secondary,Not Reported,621701,True,False
+4606,Italy,ITA,45.551,9.269,181987.0,reported as treated,Advanced,Not Reported,690030,True,False
+5998,Italy,ITA,40.874,14.068,156788.0,estimated,Advanced,Not Reported,792000,True,False
+4611,Italy,ITA,45.415,9.295,156019.0,reported as treated,Advanced,Not Reported,339520,True,False
+6063,Italy,ITA,41.92,12.579,140747.0,estimated,Advanced,Not Reported,710970,True,False
+4610,Italy,ITA,45.494,9.085,140414.0,reported as treated,Advanced,Not Reported,447363,True,False
+6279,Italy,ITA,40.865,14.301,134814.0,estimated,Advanced,Not Reported,681000,True,False
+6069,Italy,ITA,41.963,12.497,122045.0,estimated,Advanced,Not Reported,616500,True,False
+3964,Italy,ITA,45.419,10.708,117079.0,reported as treated,Advanced,Not Reported,160492,True,False
+5028,Italy,ITA,44.553,11.359,113249.0,reported as treated,Advanced,Not Reported,672397,True,False
+5077,Italy,ITA,39.213,9.142,108426.0,reported as treated,Advanced,Not Reported,531666,True,False
+4470,Italy,ITA,45.412,8.875,105475.0,reported as treated,Advanced,Not Reported,247032,True,False
+4263,Italy,ITA,45.429,12.259,100956.0,reported as treated,Advanced,Not Reported,355330,True,False
+55905,Japan,JPN,35.686,139.654,433551.0,estimated,Advanced,Not Reported,1733561,True,False
+55940,Japan,JPN,35.901,139.649,302837.0,estimated,Advanced,Not Reported,1210899,True,False
+55716,Japan,JPN,34.516,135.561,274724.0,estimated,Advanced,Not Reported,1098489,True,True
+55912,Japan,JPN,35.714,139.694,264812.0,estimated,Advanced,Not Reported,1058855,True,False
+55891,Japan,JPN,35.618,139.611,254153.0,estimated,Advanced,Not Reported,1016236,True,False
+55924,Japan,JPN,35.776,139.849,236984.0,estimated,Advanced,Not Reported,947584,True,False
+55674,Japan,JPN,33.571,130.444,235206.0,estimated,Advanced,Not Reported,940477,True,True
+55929,Japan,JPN,35.805,139.541,233588.0,estimated,Advanced,Not Reported,934006,True,False
+55727,Japan,JPN,34.634,135.55,228839.0,estimated,Advanced,Not Reported,915016,True,True
+55728,Japan,JPN,34.643,135.482,225159.0,estimated,Advanced,Not Reported,900303,True,True
+55786,Japan,JPN,34.889,135.708,220920.0,estimated,Advanced,Not Reported,883354,True,True
+55765,Japan,JPN,34.771,135.447,220875.0,estimated,Advanced,Not Reported,883174,True,True
+55897,Japan,JPN,35.655,139.509,220712.0,estimated,Advanced,Not Reported,882519,True,False
+55788,Japan,JPN,34.909,135.797,215260.0,estimated,Advanced,Not Reported,860722,True,True
+55916,Japan,JPN,35.737,139.408,209179.0,estimated,Advanced,Not Reported,836408,True,False
+55903,Japan,JPN,35.672,140.008,193890.0,estimated,Advanced,Not Reported,775271,True,False
+55631,Japan,JPN,26.294,127.754,188436.0,estimated,Advanced,Not Reported,753463,True,True
+55712,Japan,JPN,34.468,135.366,187503.0,estimated,Advanced,Not Reported,749733,True,True
+55747,Japan,JPN,34.698,135.076,187413.0,estimated,Advanced,Not Reported,749374,True,True
+55849,Japan,JPN,35.398,139.533,183692.0,estimated,Advanced,Not Reported,734496,True,False
+55888,Japan,JPN,35.576,139.742,174758.0,estimated,Advanced,Not Reported,698771,True,False
+55683,Japan,JPN,33.895,130.916,172832.0,estimated,Advanced,Not Reported,691072,True,True
+55827,Japan,JPN,35.192,136.902,168486.0,estimated,Advanced,Not Reported,673694,True,False
+55913,Japan,JPN,35.715,139.326,165711.0,estimated,Advanced,Not Reported,662597,True,False
+55856,Japan,JPN,35.457,139.6,165192.0,estimated,Advanced,Not Reported,660522,True,False
+55908,Japan,JPN,35.69,139.91,155728.0,estimated,Advanced,Not Reported,622683,True,False
+55889,Japan,JPN,35.583,139.456,154267.0,estimated,Advanced,Not Reported,616839,True,False
+55909,Japan,JPN,35.697,139.367,152355.0,estimated,Advanced,Not Reported,609192,True,False
+55742,Japan,JPN,34.694,134.877,151705.0,estimated,Advanced,Not Reported,606596,True,True
+55759,Japan,JPN,34.744,135.629,149447.0,estimated,Advanced,Not Reported,597567,True,True
+55780,Japan,JPN,34.83,135.572,140301.0,estimated,Advanced,Not Reported,560997,True,True
+55928,Japan,JPN,35.788,139.687,138438.0,estimated,Advanced,Not Reported,553548,True,False
+55923,Japan,JPN,35.774,139.824,136831.0,estimated,Advanced,Not Reported,547123,True,False
+55900,Japan,JPN,35.664,139.831,134516.0,estimated,Advanced,Not Reported,537866,True,False
+55853,Japan,JPN,35.428,139.41,134401.0,estimated,Advanced,Not Reported,537405,True,False
+55833,Japan,JPN,35.267,136.85,133949.0,estimated,Advanced,Not Reported,535596,True,False
+55881,Japan,JPN,35.549,140.193,133926.0,estimated,Advanced,Not Reported,535504,True,False
+58368,Japan,JPN,43.069,141.416,133203.0,estimated,Advanced,Not Reported,532616,True,False
+55942,Japan,JPN,35.904,139.495,131108.0,estimated,Advanced,Not Reported,524236,True,False
+55884,Japan,JPN,35.56,139.69,128220.0,estimated,Advanced,Not Reported,512689,True,False
+55816,Japan,JPN,35.127,136.979,125637.0,estimated,Advanced,Not Reported,502363,True,False
+55752,Japan,JPN,34.717,137.746,119439.0,estimated,Advanced,Not Reported,477581,True,True
+55933,Japan,JPN,35.843,139.619,117815.0,estimated,Advanced,Not Reported,471085,True,False
+55824,Japan,JPN,35.176,137.079,117723.0,estimated,Advanced,Not Reported,470716,True,False
+55965,Japan,JPN,36.373,140.503,115821.0,estimated,Advanced,Not Reported,463113,True,False
+55731,Japan,JPN,34.662,135.212,114794.0,estimated,Advanced,Not Reported,459007,True,True
+55927,Japan,JPN,35.789,139.692,114439.0,estimated,Advanced,Not Reported,457588,True,False
+55680,Japan,JPN,33.785,130.71,112548.0,estimated,Advanced,Not Reported,450024,True,True
+55805,Japan,JPN,35.011,135.913,110912.0,estimated,Advanced,Not Reported,443486,True,False
+55818,Japan,JPN,35.152,136.996,110745.0,estimated,Advanced,Not Reported,442817,True,False
+55808,Japan,JPN,35.071,135.844,110716.0,estimated,Advanced,Not Reported,442699,True,False
+55710,Japan,JPN,34.384,132.497,110474.0,estimated,Advanced,Not Reported,441730,True,True
+55721,Japan,JPN,34.576,135.751,109739.0,estimated,Advanced,Not Reported,438794,True,True
+55809,Japan,JPN,35.083,138.934,109521.0,estimated,Advanced,Not Reported,437921,True,False
+55749,Japan,JPN,34.702,135.593,109359.0,estimated,Advanced,Not Reported,437273,True,True
+55893,Japan,JPN,35.632,140.049,106009.0,estimated,Advanced,Not Reported,423878,True,False
+55682,Japan,JPN,33.836,132.742,104727.0,estimated,Advanced,Not Reported,418752,True,True
+55814,Japan,JPN,35.113,136.899,104040.0,estimated,Advanced,Not Reported,416007,True,False
+55837,Japan,JPN,35.296,136.763,103372.0,estimated,Advanced,Not Reported,413333,True,False
+55918,Japan,JPN,35.744,139.756,102700.0,estimated,Advanced,Not Reported,410648,True,False
+55733,Japan,JPN,34.666,135.552,102627.0,estimated,Advanced,Not Reported,410355,True,True
+55894,Japan,JPN,35.646,140.045,101405.0,estimated,Advanced,Not Reported,405471,True,False
+55865,Japan,JPN,35.495,139.466,101234.0,estimated,Advanced,Not Reported,404788,True,False
+55751,Japan,JPN,34.71,135.346,100918.0,estimated,Advanced,Not Reported,403522,True,True
+55648,Japan,JPN,32.853,130.73,100474.0,estimated,Advanced,Not Reported,401748,True,True
+55692,Japan,JPN,34.196,135.188,100141.0,estimated,Advanced,Not Reported,400417,True,True
+56030,South Korea,KOR,37.569,126.996,849064.0,estimated,Advanced,Not Reported,2250682,True,False
+56028,South Korea,KOR,37.549,126.883,789773.0,estimated,Advanced,Not Reported,2093516,True,False
+55815,South Korea,KOR,35.126,129.115,708740.0,estimated,Advanced,Not Reported,1878715,True,False
+56027,South Korea,KOR,37.547,126.769,563471.0,estimated,Advanced,Not Reported,1493639,True,False
+56018,South Korea,KOR,37.419,126.898,550827.0,estimated,Advanced,Not Reported,1460123,True,False
+56040,South Korea,KOR,37.72,127.051,549739.0,estimated,Advanced,Not Reported,1457237,True,False
+55967,South Korea,KOR,36.384,127.408,540889.0,estimated,Advanced,Not Reported,1433779,True,False
+56019,South Korea,KOR,37.436,126.729,483155.0,estimated,Advanced,Not Reported,1280739,True,False
+56025,South Korea,KOR,37.5,126.996,469918.0,estimated,Advanced,Not Reported,1245650,True,False
+55943,South Korea,KOR,35.909,128.593,460922.0,estimated,Advanced,Not Reported,1221805,True,False
+55819,South Korea,KOR,35.155,126.831,408360.0,estimated,Advanced,Not Reported,1082473,True,False
+56011,South Korea,KOR,37.301,127.089,407238.0,estimated,Advanced,Not Reported,1079500,True,False
+56020,South Korea,KOR,37.462,127.122,392615.0,estimated,Advanced,Not Reported,1040737,True,False
+56024,South Korea,KOR,37.497,127.083,388892.0,estimated,Advanced,Not Reported,1030869,True,False
+56023,South Korea,KOR,37.495,127.089,348504.0,estimated,Advanced,Not Reported,923808,True,False
+55821,South Korea,KOR,35.17,128.957,311950.0,estimated,Advanced,Not Reported,826911,True,False
+55985,South Korea,KOR,36.647,127.424,298457.0,estimated,Advanced,Not Reported,791145,True,False
+56012,South Korea,KOR,37.306,126.951,288523.0,estimated,Advanced,Not Reported,764810,True,False
+56013,South Korea,KOR,37.321,126.9,282374.0,estimated,Advanced,Not Reported,748513,True,False
+55936,South Korea,KOR,35.877,127.105,274161.0,estimated,Advanced,Not Reported,726741,True,False
+56017,South Korea,KOR,37.396,126.667,239121.0,estimated,Advanced,Not Reported,633857,True,False
+56008,South Korea,KOR,37.213,127.022,225413.0,estimated,Advanced,Not Reported,597519,True,False
+56032,South Korea,KOR,37.589,126.848,223152.0,estimated,Advanced,Not Reported,591528,True,False
+55930,South Korea,KOR,35.822,128.498,216481.0,estimated,Advanced,Not Reported,573844,True,False
+56009,South Korea,KOR,37.259,127.05,216416.0,estimated,Advanced,Not Reported,573673,True,False
+55935,South Korea,KOR,35.848,128.727,212142.0,estimated,Advanced,Not Reported,562342,True,False
+55863,South Korea,KOR,35.486,129.321,197603.0,estimated,Advanced,Not Reported,523801,True,False
+56037,South Korea,KOR,37.657,126.727,188001.0,estimated,Advanced,Not Reported,498349,True,False
+55948,South Korea,KOR,36.005,129.347,162854.0,estimated,Advanced,Not Reported,431689,True,False
+55830,South Korea,KOR,35.224,126.842,160563.0,estimated,Advanced,Not Reported,425617,True,False
+56034,South Korea,KOR,37.624,126.796,154856.0,estimated,Advanced,Not Reported,410490,True,False
+55825,South Korea,KOR,35.176,128.876,149166.0,estimated,Advanced,Not Reported,395406,True,False
+56014,South Korea,KOR,37.335,126.699,141986.0,estimated,Advanced,Not Reported,376373,True,False
+56010,South Korea,KOR,37.272,127.067,120940.0,estimated,Advanced,Not Reported,320585,True,False
+56035,South Korea,KOR,37.652,126.664,120487.0,estimated,Advanced,Not Reported,319386,True,False
+55813,South Korea,KOR,35.089,128.912,114967.0,estimated,Advanced,Not Reported,304753,True,False
+55874,South Korea,KOR,35.522,129.427,113585.0,estimated,Advanced,Not Reported,301090,True,False
+54270,Kuwait,KWT,29.285,47.919,251110.0,estimated,Advanced,Not Reported,1348492,True,True
+70,Lithuania,LTU,54.659,23.017,105153.0,reported as treated,Advanced,Not Reported,6200,True,False
+11929,Latvia,LVA,57.044,23.955,130248.0,reported as treated,Advanced,Not Reported,606020,True,False
+377,Netherlands,NLD,52.4,4.787,218742.0,estimated,Advanced,Not Reported,760217,True,False
+447,Netherlands,NLD,52.017,4.319,207452.0,estimated,Advanced,Not Reported,720980,True,False
+589,Netherlands,NLD,51.46,5.503,160039.0,estimated,Advanced,Not Reported,556200,True,False
+14410,Norway,NOR,59.793,10.499,480601.0,estimated,Advanced,Not Reported,1108193,True,False
+14682,Norway,NOR,63.447,10.337,217568.0,estimated,Primary,Not Reported,501680,True,False
+14426,Norway,NOR,59.883,10.767,122453.0,reported as treated,Advanced,Not Reported,502421,True,False
+14551,Norway,NOR,59.02,5.619,108522.0,reported as treated,Secondary,Not Reported,300000,True,False
+14681,Norway,NOR,63.448,10.426,103302.0,estimated,Primary,Not Reported,238198,True,False
+52983,New Zealand,NZL,-36.968,174.772,319239.0,reported as treated,Advanced,Not Reported,997242,True,False
+52800,New Zealand,NZL,-43.53,172.7,170210.0,reported as treated,Advanced,Not Reported,349662,True,False
+2442,Poland,POL,51.525,15.224,376686.0,estimated,Secondary,Not Reported,2641847,True,False
+2441,Poland,POL,51.565,15.175,248033.0,estimated,Secondary,Not Reported,1739556,True,False
+2642,Poland,POL,52.333,20.917,238850.0,estimated,Advanced,Not Reported,1675149,True,False
+3309,Poland,POL,52.456,16.979,190627.0,estimated,Advanced,Not Reported,1336943,True,False
+2310,Poland,POL,51.72,19.34,104078.0,estimated,Advanced,Not Reported,729937,True,False
+3008,Poland,POL,54.372,18.867,102402.0,estimated,Advanced,Not Reported,718187,True,False
+13218,Portugal,PRT,38.673,-9.467,133001.0,estimated,Primary,Not Reported,797700,True,False
+13226,Portugal,PRT,38.695,-9.173,116545.0,estimated,Advanced,Not Reported,699000,True,False
+54184,Qatar,QAT,25.229,51.525,295125.0,estimated,Advanced,Not Reported,980971,True,True
+54181,Qatar,QAT,25.188,51.514,170334.0,estimated,Advanced,Not Reported,566176,True,True
+13803,Romania,ROU,44.396,26.234,287338.0,estimated,Secondary,Not Reported,1276131,True,False
+13998,Romania,ROU,47.146,27.669,111861.0,reported as treated,Secondary,Not Reported,821066,True,False
+13834,Romania,ROU,45.65,25.579,101777.0,reported as treated,Secondary,Not Reported,494000,True,False
+58210,Russia,RUS,59.973,30.344,153169.0,estimated,Secondary,Not Reported,1187594,True,False
+57761,Russia,RUS,55.635,37.763,133780.0,estimated,Secondary,Not Reported,1037260,True,False
+57821,Russia,RUS,55.824,37.668,115632.0,estimated,Secondary,Not Reported,896553,True,False
+54096,Saudi Arabia,SAU,21.371,39.223,169382.0,estimated,Advanced,Not Reported,821541,True,True
+54890,Singapore,SGP,1.333,103.753,430828.0,estimated,Advanced,Not Reported,1558940,True,True
+54889,Singapore,SGP,1.324,103.959,383389.0,estimated,Advanced,Not Reported,1387281,True,True
+261,Slovakia,SVK,48.15,17.22,106777.0,reported as treated,Secondary,Not Reported,342393,True,False
+24539,Sweden,SWE,57.689,11.887,335674.0,reported as treated,Advanced,Not Reported,1205947,True,False
+24538,Sweden,SWE,59.317,18.115,267671.0,reported as treated,Advanced,Not Reported,1034261,True,False
+24537,Sweden,SWE,59.35,18.237,138356.0,reported as treated,Advanced,Not Reported,572040,True,False
+24536,Sweden,SWE,59.321,18.092,129863.0,reported as treated,Advanced,Not Reported,344242,True,False
+24535,Sweden,SWE,59.068,17.712,108247.0,reported as treated,Advanced,Not Reported,270500,True,False
+27787,United States,USA,41.814,-87.77,3073754.0,reported as treated,Advanced,Not Reported,2238754,True,False
+30967,United States,USA,42.283,-83.129,2500264.0,reported as treated,Advanced,Not Reported,2359691,True,False
+33149,United States,USA,36.1,-115.033,1514165.0,reported as treated,Advanced,Projected,3359400,True,False
+26638,United States,USA,38.821,-77.018,1400602.0,reported as treated,Advanced,Not Reported,2177897,True,False
+25943,United States,USA,33.804,-118.284,1283255.0,reported as treated,Secondary,Not Reported,3530120,True,True
+25954,United States,USA,33.931,-118.435,1230259.0,reported as treated,Secondary,Not Reported,4325314,True,True
+30751,United States,USA,42.35,-70.957,1173478.0,reported as treated,Secondary,Not Reported,1693303,True,False
+27791,United States,USA,42.019,-87.716,1105340.0,reported as treated,Advanced,Not Reported,1242722,True,False
+33250,United States,USA,40.713,-74.13,1053594.0,reported as treated,Secondary,Not Reported,1438279,True,False
+33576,United States,USA,40.731,-73.946,1026831.0,reported as treated,Secondary,Not Reported,1761012,True,False
+33566,United States,USA,40.788,-73.923,946353.0,reported as treated,Advanced,Not Reported,1210058,True,False
+27793,United States,USA,41.663,-87.61,880411.0,reported as treated,Advanced,Not Reported,1139238,True,False
+39333,United States,USA,43.031,-87.914,802507.0,reported as treated,Advanced,Not Reported,1114952,True,False
+31207,United States,USA,44.925,-93.044,770786.0,reported as treated,Advanced,Not Reported,1676695,True,False
+36253,United States,USA,39.886,-75.218,751404.0,reported as treated,Secondary,Not Reported,1291651,True,False
+36252,United States,USA,39.991,-75.085,744591.0,reported as treated,Secondary,Not Reported,1257517,True,False
+26251,United States,USA,32.667,-117.243,696516.0,reported as treated,Primary,Not Reported,2066532,True,True
+33286,United States,USA,40.491,-74.304,672414.0,reported as treated,Advanced,Not Reported,822541,True,False
+33577,United States,USA,40.826,-73.957,643520.0,reported as treated,Secondary,Not Reported,849776,True,False
+35050,United States,USA,41.399,-81.627,643520.0,reported as treated,Advanced,Not Reported,607312,True,False
+25974,United States,USA,38.449,-121.462,624593.0,reported as treated,Secondary,Not Reported,2809116,True,False
+36709,United States,USA,40.474,-80.041,620808.0,reported as treated,Secondary,Not Reported,1865470,True,False
+30523,United States,USA,39.295,-76.492,588567.0,reported as treated,Advanced,Not Reported,998745,True,False
+26295,United States,USA,39.813,-104.959,575383.0,reported as treated,Advanced,Not Reported,1557142,True,False
+37564,United States,USA,32.779,-96.926,575383.0,reported as treated,Advanced,Not Reported,1205121,True,True
+26227,United States,USA,33.692,-117.939,571597.0,reported as treated,Secondary,Not Reported,3484265,True,True
+35164,United States,USA,39.108,-84.546,571597.0,reported as treated,Secondary,Not Reported,428050,True,False
+34084,United States,USA,42.915,-78.899,564026.0,reported as treated,Secondary,Not Reported,512985,True,False
+25852,United States,USA,37.434,-121.953,542450.0,reported as treated,Advanced,Not Reported,1546938,True,False
+25326,United States,USA,33.427,-112.106,529958.0,reported as treated,Secondary,Not Reported,1757478,True,True
+37852,United States,USA,32.772,-97.144,525794.0,reported as treated,Advanced,Not Reported,1104531,True,True
+35049,United States,USA,41.57,-81.585,496230.0,reported as treated,Advanced,Not Reported,322387,True,False
+33568,United States,USA,40.778,-73.895,488735.0,reported as treated,Advanced,Not Reported,1031661,True,False
+26666,United States,USA,25.745,-80.153,480747.0,reported as treated,Secondary,Not Reported,1120906,True,True
+37826,United States,USA,32.747,-96.547,468271.0,reported as treated,Advanced,Not Reported,980256,True,True
+33567,United States,USA,40.801,-73.88,462274.0,reported as treated,Advanced,Not Reported,809569,True,False
+28008,United States,USA,39.747,-86.174,454249.0,reported as treated,Advanced,Not Reported,707569,True,False
+31742,United States,USA,38.534,-90.27,431537.0,reported as treated,Secondary,Not Reported,574338,True,False
+31741,United States,USA,38.674,-90.195,420181.0,reported as treated,Secondary,Not Reported,559471,True,False
+38608,United States,USA,47.663,-122.427,416395.0,reported as treated,Secondary,Not Reported,1381812,True,False
+29852,United States,USA,38.23,-85.836,369078.0,reported as treated,Secondary,Not Reported,550000,True,False
+33570,United States,USA,40.662,-73.807,363740.0,reported as treated,Advanced,Not Reported,767723,True,False
+35057,United States,USA,39.818,-82.999,363400.0,reported as treated,Advanced,Not Reported,552865,True,False
+37999,United States,USA,29.755,-95.298,363400.0,reported as treated,Advanced,Not Reported,831335,True,True
+26668,United States,USA,25.919,-80.154,359614.0,reported as treated,Secondary,Not Reported,832294,True,True
+36254,United States,USA,39.902,-75.146,358857.0,reported as treated,Secondary,Not Reported,313824,True,False
+39745,United States,USA,18.446,-66.152,355829.0,reported as treated,Primary,Not Reported,832499,True,True
+33574,United States,USA,40.59,-73.932,352384.0,reported as treated,Advanced,Not Reported,596326,True,False
+30360,United States,USA,29.977,-89.997,348636.0,reported as treated,Secondary,Not Reported,300000,True,True
+26669,United States,USA,25.551,-80.333,348258.0,reported as treated,Advanced,Not Reported,840500,True,True
+37468,United States,USA,36.186,-86.789,347879.0,reported as treated,Advanced,Not Reported,395402,True,False
+37453,United States,USA,35.192,-90.055,340687.0,reported as treated,Secondary,Not Reported,432450,True,False
+33152,United States,USA,36.1,-115.033,336902.0,reported as treated,Advanced,Not Reported,964400,True,False
+26226,United States,USA,33.692,-117.939,333116.0,reported as treated,Secondary,Not Reported,1443610,True,True
+27016,United States,USA,33.745,-84.573,331299.0,reported as treated,Advanced,Not Reported,471635,True,True
+33575,United States,USA,40.64,-74.036,329672.0,reported as treated,Secondary,Not Reported,797607,True,False
+33986,United States,USA,43.231,-77.585,328271.0,reported as treated,Advanced,Not Reported,485867,True,False
+33244,United States,USA,40.639,-74.2,321760.0,reported as treated,Advanced,Not Reported,758488,True,False
+35451,United States,USA,41.693,-83.483,321760.0,reported as treated,Advanced,Not Reported,329989,True,False
+25945,United States,USA,34.032,-118.021,316460.0,reported as treated,Advanced,Not Reported,1000000,True,True
+31186,United States,USA,42.188,-83.158,306618.0,reported as treated,Advanced,Not Reported,264724,True,False
+31720,United States,USA,39.121,-94.495,306618.0,reported as treated,Secondary,Not Reported,433096,True,False
+25843,United States,USA,37.74,-122.39,302833.0,reported as treated,Secondary,Not Reported,949125,True,False
+25848,United States,USA,37.823,-122.298,302833.0,reported as treated,Secondary,Not Reported,781359,True,False
+35056,United States,USA,39.913,-83.017,300940.0,reported as treated,Advanced,Not Reported,487474,True,False
+33697,United States,USA,40.925,-73.906,300668.0,reported as treated,Secondary,Not Reported,479197,True,False
+34777,United States,USA,41.155,-81.566,299048.0,reported as treated,Advanced,Not Reported,358376,True,False
+37827,United States,USA,32.641,-96.647,298328.0,reported as treated,Advanced,Not Reported,590000,True,True
+27344,United States,USA,21.304,-157.872,293748.0,reported as treated,Primary,Not Reported,418655,True,True
+33243,United States,USA,40.837,-74.033,284625.0,reported as treated,Secondary,Not Reported,698664,True,False
+26007,United States,USA,36.706,-119.89,283906.0,reported as treated,Secondary,Not Reported,940220,True,False
+26637,United States,USA,39.73,-75.504,283906.0,reported as treated,Advanced,Not Reported,480797,True,False
+38391,United States,USA,37.416,-77.323,283906.0,reported as treated,Advanced,Not Reported,209300,True,False
+26639,United States,USA,26.261,-80.153,274442.0,reported as treated,Advanced,Not Reported,679994,True,True
+35069,United States,USA,39.726,-84.23,272550.0,reported as treated,Advanced,Not Reported,278226,True,False
+33932,United States,USA,43.063,-76.176,269343.0,reported as treated,Advanced,Not Reported,270398,True,False
+37452,United States,USA,35.069,-90.132,266872.0,reported as treated,Secondary,Not Reported,333148,True,False
+38607,United States,USA,47.471,-122.243,264979.0,reported as treated,Secondary,Not Reported,787449,True,False
+36882,United States,USA,42.141,-80.075,259641.0,reported as treated,Advanced,Not Reported,181206,True,False
+30524,United States,USA,39.235,-76.557,253623.0,reported as treated,Advanced,Not Reported,462012,True,False
+37343,United States,USA,35.049,-85.338,246052.0,reported as treated,Advanced,Not Reported,253251,True,False
+36035,United States,USA,45.597,-122.719,244159.0,reported as treated,Secondary,Not Reported,721420,True,False
+33571,United States,USA,40.655,-73.881,242493.0,reported as treated,Advanced,Not Reported,283428,True,False
+33119,United States,USA,36.137,-115.043,234696.0,reported as treated,Advanced,Not Reported,883000,True,False
+33569,United States,USA,40.794,-73.84,231137.0,reported as treated,Advanced,Not Reported,450412,True,False
+33572,United States,USA,40.706,-73.984,227125.0,reported as treated,Secondary,Not Reported,281150,True,False
+35659,United States,USA,35.468,-97.521,227125.0,reported as treated,Advanced,Not Reported,394724,True,False
+38396,United States,USA,37.52,-77.423,227125.0,reported as treated,Advanced,Not Reported,236551,True,False
+38665,United States,USA,47.239,-122.411,227125.0,reported as treated,Secondary,Not Reported,218383,True,False
+25957,United States,USA,34.18,-118.483,223339.0,reported as treated,Advanced,Not Reported,1100000,True,True
+33345,United States,USA,39.923,-75.128,222582.0,reported as treated,Secondary,Not Reported,495191,True,False
+38048,United States,USA,29.236,-98.418,219554.0,reported as treated,Advanced,Not Reported,1133673,True,True
+33532,United States,USA,40.652,-73.507,216022.0,reported as treated,Secondary,Not Reported,550650,True,False
+33412,United States,USA,35.018,-106.663,211983.0,reported as treated,Advanced,Not Reported,545852,True,False
+25988,United States,USA,37.937,-121.327,208198.0,reported as treated,Advanced,Not Reported,316104,True,False
+26559,United States,USA,41.731,-72.656,202444.0,reported as treated,Secondary,Not Reported,215737,True,False
+33531,United States,USA,40.632,-73.663,200691.0,reported as treated,Advanced,Not Reported,527234,True,False
+33533,United States,USA,40.632,-73.663,200691.0,reported as treated,Advanced,Not Reported,508000,True,False
+32965,United States,USA,41.082,-95.89,200627.0,reported as treated,Secondary,Not Reported,249887,True,False
+37742,United States,USA,30.28,-97.653,199340.0,reported as treated,Advanced,Not Reported,440720,True,True
+26697,United States,USA,27.925,-82.439,191163.0,reported as treated,Advanced,Not Reported,375000,True,True
+25401,United States,USA,33.638,-112.327,190793.0,estimated,Advanced,Projected,400000,True,True
+30894,United States,USA,42.948,-85.705,190785.0,reported as treated,Advanced,Not Reported,338045,True,False
+26720,United States,USA,26.715,-80.052,189271.0,reported as treated,Advanced,Not Reported,269398,True,True
+28009,United States,USA,39.747,-86.174,185485.0,reported as treated,Advanced,Not Reported,310123,True,False
+28071,United States,USA,41.722,-86.268,181700.0,reported as treated,Advanced,Not Reported,119763,True,False
+33898,United States,USA,43.101,-75.194,181700.0,reported as treated,Advanced,Not Reported,122412,True,False
+33413,United States,USA,35.018,-106.663,181321.0,reported as treated,Secondary,Not Reported,410111,True,False
+37062,United States,USA,41.795,-71.389,180564.0,reported as treated,Secondary,Not Reported,212743,True,False
+31514,United States,USA,32.237,-90.209,173713.0,reported as treated,Advanced,Not Reported,436315,True,True
+38501,United States,USA,38.812,-77.455,170344.0,reported as treated,Advanced,Not Reported,323756,True,False
+30722,United States,USA,42.088,-72.589,170306.0,reported as treated,Secondary,Not Reported,235804,True,False
+37179,United States,USA,33.951,-81.01,168735.0,reported as treated,Secondary,Not Reported,304735,True,True
+38659,United States,USA,47.697,-117.475,166558.0,reported as treated,Advanced,Not Reported,361098,True,False
+30911,United States,USA,43.044,-83.77,163908.0,reported as treated,Advanced,Not Reported,102434,True,False
+36073,United States,USA,45.222,-123.161,163151.0,reported as treated,Advanced,Not Reported,28200,True,False
+34412,United States,USA,35.717,-78.492,157852.0,reported as treated,Advanced,Not Reported,429283,True,False
+39305,United States,USA,43.034,-89.346,155202.0,reported as treated,Advanced,Not Reported,358612,True,False
+30358,United States,USA,29.965,-90.19,154445.0,reported as treated,Secondary,Not Reported,200000,True,True
+31848,United States,USA,39.17,-94.322,151530.0,reported as treated,Secondary,Not Reported,271772,True,False
+28038,United States,USA,41.08,-85.1,151416.0,reported as treated,Advanced,Not Reported,335161,True,False
+37875,United States,USA,33.126,-96.562,151416.0,reported as treated,Advanced,Not Reported,318365,True,True
+25241,United States,USA,33.393,-87.008,150697.0,reported as treated,Advanced,Not Reported,237490,True,True
+36248,United States,USA,39.829,-75.393,149940.0,reported as treated,Secondary,Not Reported,135976,True,False
+26641,United States,USA,26.027,-80.135,149524.0,reported as treated,Advanced,Not Reported,320299,True,True
+26215,United States,USA,33.968,-117.675,146874.0,reported as treated,Advanced,Not Reported,479792,True,True
+25840,United States,USA,37.997,-122.07,146495.0,reported as treated,Secondary,Not Reported,582896,True,False
+31213,United States,USA,46.759,-92.126,146495.0,reported as treated,Advanced,Not Reported,110074,True,False
+36054,United States,USA,44.096,-123.112,145738.0,reported as treated,Advanced,Not Reported,215588,True,False
+26661,United States,USA,30.352,-81.629,143694.0,reported as treated,Advanced,Not Reported,190000,True,True
+26679,United States,USA,28.45,-81.439,141953.0,reported as treated,Advanced,Not Reported,350000,True,True
+30709,United States,USA,42.212,-71.789,141574.0,reported as treated,Advanced,Not Reported,207535,True,False
+38492,United States,USA,38.799,-77.061,139303.0,reported as treated,Advanced,Not Reported,257768,True,False
+35526,United States,USA,41.092,-80.642,138849.0,reported as treated,Advanced,Not Reported,148118,True,False
+38049,United States,USA,29.277,-98.514,137865.0,reported as treated,Advanced,Not Reported,337267,True,True
+35665,United States,USA,36.15,-95.994,136653.0,reported as treated,Secondary,Not Reported,180016,True,False
+26642,United States,USA,26.099,-80.125,135139.0,reported as treated,Advanced,Not Reported,297500,True,True
+31753,United States,USA,37.151,-93.363,132489.0,reported as treated,Advanced,Not Reported,183235,True,False
+35051,United States,USA,41.494,-81.727,132489.0,reported as treated,Advanced,Not Reported,122497,True,False
+37470,United States,USA,36.181,-86.857,132243.0,reported as treated,Advanced,Not Reported,66426,True,False
+38491,United States,USA,36.773,-75.975,131165.0,reported as treated,Secondary,Not Reported,329550,True,False
+38000,United States,USA,29.712,-95.261,130597.0,reported as treated,Advanced,Not Reported,292600,True,True
+35163,United States,USA,39.102,-84.432,129840.0,reported as treated,Secondary,Not Reported,132088,True,False
+39747,United States,USA,18.436,-65.885,129348.0,reported as treated,Secondary,Not Reported,295666,True,True
+33573,United States,USA,40.637,-74.125,128818.0,reported as treated,Secondary,Not Reported,244628,True,False
+36294,United States,USA,40.605,-75.457,128704.0,reported as treated,Secondary,Not Reported,181767,True,False
+37954,United States,USA,29.991,-94.131,128704.0,reported as treated,Advanced,Not Reported,121800,True,True
+38445,United States,USA,37.293,-77.263,128325.0,reported as treated,Secondary,Not Reported,42531,True,False
+26209,United States,USA,33.964,-117.457,126811.0,reported as treated,Advanced,Not Reported,431519,True,True
+30171,United States,USA,30.117,-89.895,126660.0,reported as treated,Secondary,Projected,375000,True,True
+34102,United States,USA,43.083,-79.047,126652.0,reported as treated,Advanced,Not Reported,79353,True,False
+27696,United States,USA,39.84,-89.001,126622.0,reported as treated,Advanced,Not Reported,103859,True,False
+28622,United States,USA,41.572,-93.558,126243.0,reported as treated,Secondary,Not Reported,662376,True,False
+38007,United States,USA,29.689,-95.451,125297.0,reported as treated,Advanced,Not Reported,300000,True,True
+30354,United States,USA,30.35,-91.137,124919.0,reported as treated,Secondary,Not Reported,217711,True,True
+37605,United States,USA,31.65,-106.323,123378.0,reported as treated,Advanced,Not Reported,326280,True,True
+37743,United States,USA,30.208,-97.605,123026.0,reported as treated,Advanced,Not Reported,402500,True,True
+29859,United States,USA,39.059,-84.617,122912.0,reported as treated,Secondary,Not Reported,368000,True,False
+27014,United States,USA,33.745,-84.573,122322.0,reported as treated,Advanced,Not Reported,152541,True,True
+27015,United States,USA,33.745,-84.573,122117.0,reported as treated,Advanced,Not Reported,962059,True,True
+30872,United States,USA,43.264,-86.063,122080.0,reported as treated,Advanced,Not Reported,141763,True,False
+36040,United States,USA,45.498,-122.95,121209.0,reported as treated,Advanced,Not Reported,305008,True,False
+25947,United States,USA,33.88,-118.103,121133.0,reported as treated,Advanced,Not Reported,370000,True,True
+26471,United States,USA,40.006,-104.986,121133.0,reported as treated,Advanced,Projected,227849,True,False
+32964,United States,USA,41.208,-95.929,121133.0,reported as treated,Secondary,Not Reported,190290,True,False
+33150,United States,USA,39.519,-119.703,121133.0,reported as treated,Advanced,Not Reported,288000,True,False
+33253,United States,USA,40.6,-74.259,120565.0,reported as treated,Secondary,Not Reported,219619,True,False
+27022,United States,USA,33.83,-84.457,120528.0,reported as treated,Secondary,Not Reported,213408,True,True
+35022,United States,USA,40.752,-81.37,119089.0,reported as treated,Advanced,Not Reported,186357,True,False
+33325,United States,USA,39.37,-74.428,118608.0,reported as treated,Secondary,Not Reported,467506,True,False
+38576,United States,USA,47.994,-122.178,118483.0,reported as treated,Secondary,Not Reported,149264,True,False
+38146,United States,USA,40.813,-111.93,118105.0,reported as treated,Secondary,Not Reported,186440,True,False
+30717,United States,USA,42.715,-71.129,117348.0,reported as treated,Secondary,Not Reported,362545,True,False
+30745,United States,USA,41.677,-71.194,116969.0,reported as treated,Secondary,Not Reported,92659,True,False
+38431,United States,USA,37.264,-79.915,116969.0,reported as treated,Advanced,Not Reported,189278,True,False
+26575,United States,USA,41.283,-72.903,116250.0,reported as treated,Advanced,Not Reported,187888,True,False
+27036,United States,USA,33.423,-82.018,115985.0,reported as treated,Advanced,Not Reported,345276,True,True
+37423,United States,USA,35.944,-83.933,114592.0,reported as treated,Secondary,Not Reported,143454,True,False
+25323,United States,USA,33.427,-112.106,113562.0,reported as treated,Advanced,Not Reported,296140,True,True
+25872,United States,USA,37.689,-122.4,113562.0,reported as treated,Secondary,Not Reported,350000,True,False
+26674,United States,USA,28.62,-81.219,113562.0,reported as treated,Advanced,Not Reported,242403,True,True
+27034,United States,USA,32.41,-84.974,113562.0,reported as treated,Advanced,Not Reported,238622,True,True
+27678,United States,USA,42.222,-89.093,113562.0,reported as treated,Advanced,Not Reported,189346,True,False
+30961,United States,USA,42.533,-83.02,113562.0,reported as treated,Advanced,Not Reported,134233,True,False
+33131,United States,USA,39.519,-119.703,113562.0,reported as treated,Advanced,Not Reported,11201,True,False
+39565,United States,USA,44.533,-87.994,113562.0,reported as treated,Advanced,Not Reported,228964,True,False
+29854,United States,USA,38.089,-85.897,112502.0,reported as treated,Secondary,Not Reported,105800,True,False
+36047,United States,USA,45.009,-123.049,112427.0,reported as treated,Secondary,Not Reported,257792,True,False
+25259,United States,USA,61.196,-150.024,112275.0,reported as treated,Primary,Not Reported,205373,True,False
+30720,United States,USA,41.595,-70.906,112048.0,reported as treated,Secondary,Not Reported,108829,True,False
+37232,United States,USA,34.842,-82.361,109777.0,reported as treated,Advanced,Not Reported,238946,True,True
+34308,United States,USA,35.07,-80.878,108566.0,reported as treated,Advanced,Not Reported,259039,True,False
+26252,United States,USA,32.881,-117.199,107884.0,reported as treated,Advanced,Not Reported,330339,True,True
+37563,United States,USA,31.519,-97.067,106862.0,reported as treated,Advanced,Not Reported,166367,True,True
+38489,United States,USA,36.882,-76.313,106181.0,reported as treated,Advanced,Not Reported,538646,True,False
+30845,United States,USA,42.306,-85.573,105992.0,reported as treated,Advanced,Not Reported,163275,True,False
+38494,United States,USA,38.704,-77.207,105992.0,reported as treated,Advanced,Not Reported,354403,True,False
+35664,United States,USA,36.15,-95.994,104856.0,reported as treated,Secondary,Not Reported,148573,True,False
+31743,United States,USA,38.811,-90.28,104440.0,reported as treated,Secondary,Not Reported,150980,True,False
+25353,United States,USA,32.337,-111.066,104099.0,reported as treated,Advanced,Not Reported,312957,True,True
+26267,United States,USA,38.816,-104.813,102206.0,reported as treated,Advanced,Not Reported,321697,True,False
+27702,United States,USA,40.663,-89.625,102206.0,reported as treated,Advanced,Not Reported,163850,True,False
+27789,United States,USA,42.019,-88.039,102206.0,reported as treated,Advanced,Not Reported,285127,True,False
+28025,United States,USA,41.622,-87.513,102206.0,reported as treated,Advanced,Not Reported,218132,True,False
+31744,United States,USA,38.746,-90.495,101449.0,reported as treated,Secondary,Not Reported,179931,True,False
+26210,United States,USA,34.078,-117.293,100313.0,reported as treated,Secondary,Not Reported,301063,True,True
