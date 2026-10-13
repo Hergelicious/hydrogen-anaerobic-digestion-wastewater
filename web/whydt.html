@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>W-HyDT v1.6</title>
+<style>
+  :root {
+    --bg: #f7f7f5; --card: #ffffff; --ink: #1d2327; --muted: #5d6870; --line: #dde1e4;
+    --accent: #1f6f8b; --ok-bg: #e7f4ec; --ok-ink: #1e6b3a; --bad-bg: #fbe9e7; --bad-ink: #9b2c1f;
+    --warn-bg: #fff4dc; --warn-ink: #7a5a00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #15191c; --card: #1e2428; --ink: #e8ecef; --muted: #9aa5ad; --line: #2f383e;
+      --accent: #6cb4cf; --ok-bg: #1d3326; --ok-ink: #9fd8b3; --bad-bg: #3a2220; --bad-ink: #f0b0a6;
+      --warn-bg: #3a3119; --warn-ink: #f0d58c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 15px/1.5 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 920px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 1.45rem; margin: 0 0 4px; }
+  h2 { font-size: 1.02rem; margin: 26px 0 10px; color: var(--accent); }
+  p.lead { color: var(--muted); margin: 0 0 18px; }
+  .grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+  label { display: block; font-size: .85rem; color: var(--muted); margin-bottom: 4px; }
+  input, select { width: 100%; padding: 7px 9px; border: 1px solid var(--line); border-radius: 7px;
+          background: var(--bg); color: var(--ink); font-size: .95rem; }
+  input[type=checkbox] { width: auto; margin-right: 6px; }
+  h2.part { font-size: 1.15rem; color: var(--ink); border-top: 1px solid var(--line); padding-top: 18px; margin-top: 34px; }
+  .metric .v { font-size: 1.3rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .metric .k { font-size: .8rem; color: var(--muted); }
+  .status { border-radius: 8px; padding: 9px 12px; margin: 6px 0; font-size: .9rem; }
+  .ok { background: var(--ok-bg); color: var(--ok-ink); }
+  .bad { background: var(--bad-bg); color: var(--bad-ink); }
+  .warn { background: var(--warn-bg); color: var(--warn-ink); }
+  table { width: 100%; border-collapse: collapse; font-size: .88rem; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+  details { margin-top: 10px; }
+  summary { cursor: pointer; font-weight: 600; }
+  .note { font-size: .82rem; color: var(--muted); }
+  footer { margin-top: 28px; font-size: .8rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>W-HyDT v1.6 · wastewater hydrogen screening</h1>
+  <p class="lead">Should a plant skim hydrogen from its sludge ahead of anaerobic digestion? The comparison below
+  charges the hydrogen for the biogas its COD would otherwise have produced. Screening-level estimates, not design
+  values. Hassan &amp; Hassan (2026).</p>
+
+  <h2 class="part">1 · Hydrogen skimming ahead of digestion, compared with digestion alone</h2>
+  <div class="grid">
+    <div class="card"><label for="s_flow">Influent flow (m³ d⁻¹)</label><input id="s_flow" type="number" step="10000" value="503500"></div>
+    <div class="card"><label for="s_cod">Influent COD (mg L⁻¹)</label><input id="s_cod" type="number" step="10" value="278"></div>
+    <div class="card"><label for="s_read">Fermentative yield</label><select id="s_read">
+      <option value="pilot">Higher reading: 163 mL H₂ g⁻¹ COD</option>
+      <option value="literature">Lower reading: 23 mL H₂ g⁻¹ COD</option>
+      <option value="custom">Measured at this plant</option></select></div>
+    <div class="card"><label for="s_ml">Measured yield (mL H₂ g⁻¹ COD fed)</label><input id="s_ml" type="number" step="1" value="40"></div>
+    <div class="card"><label for="s_ef">Grid intensity (kg CO₂-eq kWh⁻¹)</label><input id="s_ef" type="number" step="0.01" value="0.563"></div>
+    <div class="card"><label for="s_diesel">Diesel price (US$ L⁻¹)</label><input id="s_diesel" type="number" step="0.01" value="0.39"></div>
+    <div class="card"><label for="s_elec">Electricity price (US$ kWh⁻¹)</label><input id="s_elec" type="number" step="0.005" value="0.05"></div>
+    <div class="card"><label><input id="s_dig" type="checkbox" checked>The plant digests its sludge</label>
+      <span class="note">Unticked: no biogas is forgone.</span></div>
+  </div>
+  <div class="grid" style="margin-top:12px">
+    <div class="card metric"><div class="k">Hydrogen (kg d⁻¹)</div><div class="v" id="s_h2"></div></div>
+    <div class="card metric"><div class="k">Share of captured COD as hydrogen</div><div class="v" id="s_share"></div></div>
+    <div class="card metric"><div class="k">CHP electricity forgone (MWh d⁻¹)</div><div class="v" id="s_chp"></div></div>
+    <div class="card metric"><div class="k">Net electricity, hydrogen in fuel cells (MWh d⁻¹)</div><div class="v" id="s_nete"></div></div>
+    <div class="card metric"><div class="k">Diesel displaced in buses (L d⁻¹)</div><div class="v" id="s_dsl"></div></div>
+    <div class="card metric"><div class="k">Emissions change, buses (t CO₂-eq yr⁻¹)</div><div class="v" id="s_co2"></div></div>
+    <div class="card metric"><div class="k">Intensity, attributional / consequential (kg CO₂-eq kg⁻¹ H₂)</div><div class="v" id="s_ci"></div></div>
+    <div class="card metric"><div class="k">Net value before capital, buses (US$ yr⁻¹)</div><div class="v" id="s_val"></div></div>
+    <div class="card metric"><div class="k">Capital the net value could service (US$)</div><div class="v" id="s_cap"></div></div>
+  </div>
+  <div id="s_status"></div>
+  <p class="note">Captured COD = 59% of influent COD. Hydrogen = yield × captured COD; every kilogram carries 8 kg COD that
+  the digesters would otherwise convert to methane (90% of 0.35 Nm³ kg⁻¹ COD), valued as CHP electricity (39.5%) replaced
+  from the grid. Process loads (0.8 MWh d⁻¹ for value, 2.20 MWh d⁻¹ for carbon) and embodied carbon (9,420 t over 20 years)
+  scale with captured COD from Gabal El-Asfar (upper bounds). Buses: 5 L diesel per kg H₂; compression 3 kWh kg⁻¹;
+  conditioning US$1.45 kg⁻¹; carbon credited at 11.28 kg CO₂-eq kg⁻¹ H₂ (RED II, 1:1 energy basis). Methane losses avoided
+  4.25% (GWP₁₀₀ 27.0); hydrogen leakage 1% (GWP₁₀₀ 11.6). Thresholds: 3.95 and 3.38 kg CO₂-eq kg⁻¹ H₂ (65% and 70%
+  savings). Serviceable capital = value / (0.0944 + 0.090). Central values of Supplementary Table 44.</p>
+
+  <h2 class="part">2 · Design-case cascade screening (DF–PF)</h2>
+  <p class="note">Kept for traceability. This part uses the design-case accounting, which credits displaced diesel
+  and does not charge the forgone biogas. At a plant that already digests its sludge, the cascade loses energy
+  compared with digestion alone (Supplementary Note S21).</p>
+  <h2>Inputs</h2>
+  <div class="grid">
+    <div class="card"><label for="olr">Organic loading rate (kg COD m⁻³ d⁻¹)</label><input id="olr" type="number" step="0.05" value="1.0"></div>
+    <div class="card"><label for="nh4">Ammonium (mg L⁻¹)</label><input id="nh4" type="number" step="5" value="50"></div>
+    <div class="card"><label for="alk">Alkalinity (mg CaCO₃ L⁻¹)</label><input id="alk" type="number" step="50" value="1800"></div>
+    <div class="card"><label for="temp">Mean annual temperature (°C)</label><input id="temp" type="number" step="1" value="30"></div>
+    <div class="card"><label for="flow">Influent flow (m³ d⁻¹)</label><input id="flow" type="number" step="10000" value="503500"></div>
+    <div class="card"><label for="vol">DF reactor volume (m³)</label><input id="vol" type="number" step="500" value="82500"></div>
+    <div class="card"><label for="diesel">Design-case diesel price (US$ L⁻¹)</label><input id="diesel" type="number" step="0.01" value="0.57"></div>
+  </div>
+
+  <div id="status"></div>
+
+  <h2>Hydrogen recovery</h2>
+  <div class="grid">
+    <div class="card metric"><div class="k">DF efficiency, η<sub>DF</sub></div><div class="v" id="eta"></div></div>
+    <div class="card metric"><div class="k">H₂ output (m³ d⁻¹)</div><div class="v" id="h2"></div></div>
+    <div class="card metric"><div class="k">H₂ mass (kg d⁻¹)</div><div class="v" id="kg"></div></div>
+  </div>
+  <p class="note">DF <span id="h2df"></span> + PF <span id="h2pf"></span> m³ d⁻¹; the PF stage does not depend on η<sub>DF</sub>.</p>
+
+  <h2>Energy</h2>
+  <div class="grid">
+    <div class="card metric"><div class="k">Gross, LHV (MWh d⁻¹)</div><div class="v" id="gross"></div></div>
+    <div class="card metric"><div class="k">Fuel cell, 50% (MWh d⁻¹)</div><div class="v" id="fc"></div></div>
+    <div class="card metric"><div class="k">Net usable (MWh d⁻¹)</div><div class="v" id="net"></div></div>
+    <div class="card metric"><div class="k">Leverage ratio</div><div class="v" id="lev"></div></div>
+  </div>
+  <p class="note">Net usable = fuel-cell output − direct parasitic load (0.8 MWh d⁻¹ at 82,500 m³, scaled with
+  reactor volume). The leverage ratio is an electrical-boundary metric that excludes thermal pre-treatment and embodied energy.</p>
+
+  <h2>Climate</h2>
+  <div class="grid">
+    <div class="card metric"><div class="k">Avoided fossil fuel (kg CO₂-eq d⁻¹)</div><div class="v" id="fossil"></div></div>
+    <div class="card metric"><div class="k">Annual net mitigation, design-case accounting (t CO₂-eq yr⁻¹)</div><div class="v" id="annual"></div></div>
+    <div class="card metric"><div class="k">Net carbon intensity, design-case accounting (kg CO₂-eq kg⁻¹ H₂)</div><div class="v" id="ci"></div></div>
+  </div>
+  <p class="note">Baseline: LCA-boundary electricity (2.20 MWh d⁻¹ × 0.461 kg CO₂-eq kWh⁻¹) and embodied carbon
+  (9,420 t over 20 years), both scaled with reactor volume and divided by the facility's output, minus the RED II Annex V
+  fossil fuel credit (0.120 GJ kg⁻¹ × 94.0 g CO₂-eq MJ⁻¹ = 11.28). Avoided sludge management is a scenario outside the baseline.</p>
+
+  <h2>Economics (screening)</h2>
+  <div class="grid">
+    <div class="card metric"><div class="k">Gross LCOH (US$ kg⁻¹)</div><div class="v" id="lg"></div></div>
+    <div class="card metric"><div class="k">Net-effective LCOH (US$ kg⁻¹)</div><div class="v" id="ln"></div></div>
+    <div class="card metric"><div class="k">H₂ value at US$5.00 kg⁻¹ (US$ d⁻¹)</div><div class="v" id="rev"></div></div>
+  </div>
+  <p class="note">Gabal El-Asfar cost structure (incremental CAPEX US$24.4 M, OPEX US$2.2 M yr⁻¹, 7% WACC,
+  20 years) scaled linearly with reactor volume; net-effective LCOH deducts avoided diesel expenditure on a
+  vehicle-kilometre basis (5.0 L diesel per kg H₂: a fuel-cell bus using 8 kg H₂ per 100 km replaces a diesel bus using 40 L).</p>
+
+  <details>
+    <summary>Absolute-yield uncertainty</summary>
+    <p>Absolute DF efficiency is the pilot-derived constant: the El-Kebeer et al. pilot yield, read as 6.48 m³ H₂ per m³
+    of sludge at 39.7 kg COD m⁻³ (163 mL H₂ g⁻¹ COD, 0.349 of the Thauer yield). The source reports its yield in internally
+    inconsistent units, and this reading is the dominant uncertainty. Under the alternative reading (~23 mL H₂ g⁻¹ COD), DF
+    output would be about 7-fold lower (total output about 3.4-fold lower with the PF stage unchanged) and LCOH
+    correspondingly higher. Part 1 reports both readings. See Methods.</p>
+  </details>
+
+  <details>
+    <summary>Surrogate and equations</summary>
+    <p>Ridge regression (α = 10; Medium training envelope) on logit(η) with z-scored inputs: intercept −1.2223;
+    β<sub>OLR</sub> +0.5548 (mean 2.9304, s.d. 1.1671); β<sub>NH₄</sub> +0.0049 (51.426, 15.954); β<sub>ALK</sub> +0.0026
+    (1,829.9, 358.74). η̂(x) = min(0.55, 1 / (1 + e<sup>−(intercept + Σβz)</sup>)). Held-out RMSE 0.067 in η<sub>DF</sub>; CV-R² 0.71.</p>
+    <p>Anchored η<sub>DF</sub> = min(0.55, 0.349 × η̂(x) / η̂(x<sub>GEA</sub>)), x<sub>GEA</sub> = OLR 1.0, NH₄⁺ 50,
+    alkalinity 1,800. H₂ = [13,514 × (η<sub>DF</sub>/0.349) + 2,881] × (V/82,500 m³) m³ d⁻¹ (Gabal El-Asfar DF and PF
+    stages, case-study Monte Carlo means).</p>
+    <p>Surrogate domain (training envelope): OLR 1.0–5.0 kg COD m⁻³ d⁻¹; NH₄⁺ 25–80 mg L⁻¹; alkalinity
+    1,200–2,500 mg CaCO₃ L⁻¹; 20–38 °C; municipal primary sludge; influent ≥100,000 m³ d⁻¹.</p>
+  </details>
+
+  <footer>W-HyDT v1.6.0 · Hassan HH &amp; Hassan AH (2026) · MIT Licence · All computation runs locally in the browser.</footer>
+</main>
+
+<script>
+const P = {
+  INTERCEPT: -1.2223, B_OLR: 0.5548, B_NH4: 0.0049, B_ALK: 0.0026,
+  OLR_M: 2.9304, OLR_S: 1.1671, NH4_M: 51.426, NH4_S: 15.954, ALK_M: 1829.9, ALK_S: 358.74,
+  ETA_CAP: 0.55, REF: {olr: 1.0, nh4: 50.0, alk: 1800.0}, REF_ETA: 0.349,
+  REF_V: 82500, REF_H2_DF: 13514, REF_H2_PF: 2881, H2_DENS: 0.0899, LHV: 120.0, FC: 0.50, PARASITIC: 0.8,
+  LCA_ELEC_MWH: 2.20, GRID: 0.461, EMBODIED_T: 9420, LIFE: 20, FOSSIL: 0.120 * 94.0,
+  WACC: 0.07, CAPEX: 24.4e6, OPEX: 2.2e6, L_PER_KG: 40.0 / 8.0, OFFTAKE: 5.00,
+  DOMAIN: {olr: [1.0, 5.0], nh4: [25, 80], alk: [1200, 2500], t: [20, 38]},
+};
+const surrogateEta = (olr, nh4, alk) => {
+  const lp = P.INTERCEPT + P.B_OLR * (olr - P.OLR_M) / P.OLR_S
+           + P.B_NH4 * (nh4 - P.NH4_M) / P.NH4_S + P.B_ALK * (alk - P.ALK_M) / P.ALK_S;
+  return Math.min(P.ETA_CAP, 1 / (1 + Math.exp(-lp)));
+};
+const REF_SURR = surrogateEta(P.REF.olr, P.REF.nh4, P.REF.alk);
+const CRF = (() => { const f = Math.pow(1 + P.WACC, P.LIFE); return P.WACC * f / (f - 1); })();
+const fmt = (x, d = 0) => x.toLocaleString("en-US", {minimumFractionDigits: d, maximumFractionDigits: d});
+const val = id => parseFloat(document.getElementById(id).value);
+
+
+const S = {
+  THAUER: 4 * 2.016 / 191.99, COD_H2: 8.0, CAPTURE: 0.59, REF_COD: 82792, CH4_KG: 0.35 * 0.716, CH4_LHV: 50.0,
+  F_CH4: 0.9, CHP: 0.395, FC: 0.5, BUS_L_PER_KG: 40.0 / 8.0, COMP: 3.0, LOSS: 0.0425, LEAK: 0.01, GWP_CH4: 27.0,
+  GWP_H2: 11.6, DOWNSTREAM: 1.45, PARASITIC: 0.8, LCA_ELEC: 2.20, EMBODIED: 9420, LIFE: 20, FOSSIL: 11.28,
+  CRF_PLUS_O: 0.07 * Math.pow(1.07, 20) / (Math.pow(1.07, 20) - 1) + 2.2 / 24.4, T65: 94.0 * 0.35 * 0.120, T70: 94.0 * 0.30 * 0.120,
+  ETA: {pilot: 6.48 / 39.7 / (0.042 / 0.0899), literature: 64.8 * 14.2 / 39.7 / 1000 / (0.042 / 0.0899)},   // as in whydt.case_study
+};
+function skim(flow, cod, eta, digesting, ef, diesel, elecPrice) {
+  const cap = S.CAPTURE * flow * cod / 1000, scale = cap / S.REF_COD, d = 365;
+  const h2 = eta * S.THAUER * cap;
+  const diverted = digesting ? h2 * S.COD_H2 : 0;
+  const ch4 = diverted * S.F_CH4 * S.CH4_KG;
+  const chp = ch4 * S.CH4_LHV / 3.6 * S.CHP / 1000;
+  const proc = S.PARASITIC * scale, lca = S.LCA_ELEC * scale, comp = h2 * S.COMP / 1000;
+  const fc = h2 * 120 / 3.6 * S.FC / 1000;
+  const lossT = ch4 * S.LOSS * S.GWP_CH4 / 1000 * d, leakT = h2 * S.LEAK / (1 - S.LEAK) * S.GWP_H2 / 1000 * d;
+  const embT = S.EMBODIED * scale / S.LIFE;
+  const co2Bus = (chp + lca + comp) * ef * d - lossT + leakT + embT - h2 * d * S.FOSSIL / 1000;
+  const ciAttr = (lca + comp) * 1000 * ef / h2;
+  const ciCons = ciAttr + (chp * 1000 * ef - ch4 * S.LOSS * S.GWP_CH4 + h2 * S.LEAK / (1 - S.LEAK) * S.GWP_H2) / h2 + embT * 1000 / (h2 * d);
+  const valueBus = h2 * d * (S.BUS_L_PER_KG * diesel - S.DOWNSTREAM) - (chp + proc) * 1000 * elecPrice * d;
+  return {cap, h2, share: h2 * S.COD_H2 / cap, chp, netE: fc - chp - proc, diesel: h2 * S.BUS_L_PER_KG,
+          co2Bus, ciAttr, ciCons, valueBus, capital: valueBus / S.CRF_PLUS_O};
+}
+function updateSkim() {
+  const flow = val("s_flow"), cod = val("s_cod"), ef = val("s_ef"), diesel = val("s_diesel"), ep = val("s_elec");
+  const read = document.getElementById("s_read").value, dig = document.getElementById("s_dig").checked;
+  document.getElementById("s_ml").disabled = read !== "custom";
+  const eta = read === "custom" ? val("s_ml") / 1000 / (S.THAUER / 0.0899) : S.ETA[read];
+  if ([flow, cod, ef, diesel, ep, eta].some(Number.isNaN) || flow <= 0 || cod <= 0 || eta <= 0) return;
+  const r = skim(flow, cod, eta, dig, ef, diesel, ep);
+  const set = (id, t) => document.getElementById(id).textContent = t;
+  set("s_h2", fmt(r.h2)); set("s_share", fmt(100 * r.share, 1) + "%"); set("s_chp", fmt(r.chp, 1));
+  set("s_nete", (r.netE >= 0 ? "+" : "") + fmt(r.netE, 1)); set("s_dsl", fmt(r.diesel));
+  set("s_co2", (r.co2Bus >= 0 ? "+" : "") + fmt(r.co2Bus)); set("s_ci", fmt(r.ciAttr, 2) + " / " + fmt(r.ciCons, 2));
+  set("s_val", fmt(r.valueBus)); set("s_cap", r.capital > 0 ? fmt(r.capital) : "none");
+  const msg = [];
+  if (eta > 1) msg.push(`<div class="status bad">Yield exceeds the Thauer limit (467 mL H₂ g⁻¹ COD).</div>`);
+  msg.push(r.ciCons <= S.T70 ? `<div class="status ok">Consequential intensity meets the 70% saving threshold.</div>`
+         : r.ciCons <= S.T65 ? `<div class="status warn">Consequential intensity meets the 65% but not the 70% saving threshold.</div>`
+         : `<div class="status warn">Consequential intensity misses the 65% and 70% saving thresholds${r.ciAttr <= S.T70 ? " although the attributional intensity meets them" : ""}.</div>`);
+  if (r.valueBus <= 0) msg.push(`<div class="status bad">No positive net value before capital at this diesel price.</div>`);
+  document.getElementById("s_status").innerHTML = msg.join("");
+}
+
+function domain(olr, nh4, alk, t, flow, etaRaw) {
+  const D = P.DOMAIN, flags = [], notes = [];
+  if (!(olr >= D.olr[0] && olr <= D.olr[1])) flags.push(`OLR ${olr} outside the surrogate domain ${D.olr[0]}–${D.olr[1]} kg COD m⁻³ d⁻¹`);
+  if (!(nh4 >= D.nh4[0] && nh4 <= D.nh4[1])) flags.push(`Ammonium ${nh4} mg L⁻¹ outside the surrogate domain ${D.nh4[0]}–${D.nh4[1]} mg L⁻¹`);
+  if (nh4 > 1500) notes.push("Ammonium above 1,500 mg L⁻¹: severe inhibition");
+  else if (nh4 > 800) notes.push("Ammonium above 800 mg L⁻¹: onset of inhibition");
+  if (!(alk >= D.alk[0] && alk <= D.alk[1])) flags.push(`Alkalinity ${alk} mg CaCO₃ L⁻¹ outside the surrogate domain 1,200–2,500`);
+  if (!(t >= D.t[0] && t <= D.t[1])) flags.push(`Temperature ${t} °C outside the mesophilic range 20–38 °C`);
+  if (flow < 100000) notes.push("Influent flow below 100,000 m³ d⁻¹: below the screening scale");
+  if (etaRaw >= P.ETA_CAP) notes.push("Efficiency at the 0.55 mesophilic ceiling: the surrogate response is extrapolated beyond the pilot anchor");
+  return {flags, notes};
+}
+
+function update() {
+  const olr = val("olr"), nh4 = val("nh4"), alk = val("alk"), t = val("temp"),
+        flow = val("flow"), V = val("vol"), diesel = val("diesel");
+  if ([olr, nh4, alk, t, flow, V, diesel].some(Number.isNaN) || V <= 0) return;
+  const etaRaw = P.REF_ETA * surrogateEta(olr, nh4, alk) / REF_SURR;
+  const eta = Math.min(P.ETA_CAP, etaRaw);
+  const scale = V / P.REF_V;
+  const h2df = P.REF_H2_DF * (eta / P.REF_ETA) * scale, h2pf = P.REF_H2_PF * scale, h2 = h2df + h2pf;
+  const kg = h2 * P.H2_DENS, kgYr = kg * 365;
+  const gross = kg * P.LHV / 3600, fc = gross * P.FC, par = P.PARASITIC * scale;
+  const net = Math.max(0, fc - par);
+  const ci = P.LCA_ELEC_MWH * scale * 1000 * P.GRID / kg + P.EMBODIED_T * scale * 1000 / (P.LIFE * kgYr) - P.FOSSIL;
+  const lg = (P.CAPEX * scale * CRF + P.OPEX * scale) / kgYr;
+  const ln = lg - P.L_PER_KG * diesel;
+
+  const d = domain(olr, nh4, alk, t, flow, etaRaw);
+  let html = d.flags.length
+    ? `<div class="status bad">High-Variance Domain: ${d.flags.join("; ")}. Site-specific calibration is required rather than surrogate deployment.</div>`
+    : `<div class="status ok">Inputs within the domain of the deployed surrogate.</div>`;
+  html += d.notes.map(n => `<div class="status warn">${n}</div>`).join("");
+  document.getElementById("status").innerHTML = html;
+
+  document.getElementById("eta").textContent = fmt(eta * 100, 1) + "%";
+  document.getElementById("h2").textContent = fmt(h2);
+  document.getElementById("h2df").textContent = fmt(h2df);
+  document.getElementById("h2pf").textContent = fmt(h2pf);
+  document.getElementById("kg").textContent = fmt(kg);
+  document.getElementById("gross").textContent = fmt(gross, 1);
+  document.getElementById("fc").textContent = fmt(fc, 1);
+  document.getElementById("net").textContent = fmt(net, 1);
+  document.getElementById("lev").textContent = fmt(net / par, 1);
+  document.getElementById("fossil").textContent = fmt(kg * P.FOSSIL);
+  document.getElementById("annual").textContent = fmt(-ci * kgYr / 1000);
+  document.getElementById("ci").textContent = fmt(ci, 2);
+  document.getElementById("lg").textContent = fmt(lg, 2);
+  document.getElementById("ln").textContent = fmt(ln, 2);
+  document.getElementById("rev").textContent = fmt(kg * P.OFFTAKE);
+}
+
+document.querySelectorAll("input, select").forEach(el => {
+  el.addEventListener("input", () => { update(); updateSkim(); });
+  el.addEventListener("change", () => { update(); updateSkim(); });
+});
+update(); updateSkim();
+</script>
+</body>
+</html>
